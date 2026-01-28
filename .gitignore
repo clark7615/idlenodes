@@ -1,0 +1,16 @@
+.DS_Store
+node_modules
+public/
+prof
+tsconfig.tsbuildinfo
+.quartz-cache
+pxl-*.png
+
+# Obsidian
+.obsidian/
+.trash/
+*.sync-conflict-*
+
+# Private
+private/
+templates/
