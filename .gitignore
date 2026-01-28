@@ -11,6 +11,11 @@ pxl-*.png
 .trash/
 *.sync-conflict-*
 
-# Private
 private/
 templates/
+
+# Local/Temp
+.vercel/
+.npm/
+.quartz-cache
+tsconfig.tsbuildinfo
