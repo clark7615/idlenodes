@@ -1,17 +1,11 @@
-# Quartz v4
+# 懶惰人工作室 - Idle Nodes
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+> 閒置節點的思考空間
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+這是我的個人數位花園，使用 [Quartz](https://quartz.jzhao.xyz/) 建置。
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## 本地開發
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+1. 安裝依賴：`npm i`
+2. 啟動預覽：`npx quartz build --serve`
+3. 編輯內容：內容存放於 `content` 目錄下。

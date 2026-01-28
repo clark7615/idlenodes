@@ -1,3 +1,14 @@
+---
+title: "進階使用方式"
+description: "OB套件 "
+permalink: "/OB 套件表"
+class: "Oracle"
+rarity: "Common"
+icon: "📝"
+tags:
+  - General
+---
+
 OB套件 
 [OB公開課第六課套件(上)](https://www.bilibili.com/video/BV1Su411i7P7?spm_id_from=333.788.player.switch&vd_source=139249c1de4bc24805c0224716f2be81)
 [OB公開課第七套件(下)](https://www.bilibili.com/video/BV1yu41167jj?spm_id_from=333.788.player.switch&vd_source=139249c1de4bc24805c0224716f2be81)
