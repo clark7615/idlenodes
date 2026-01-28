@@ -11,6 +11,8 @@ const config: QuartzConfig = {
     },
     baseUrl: "idlenodes.vercel.app",
     ignorePatterns: ["private", "templates"],
+    defaultDateType: "created",
+    locale: "zh-TW",
     theme: {
       typography: {
         header: "Outfit",
@@ -27,6 +29,7 @@ const config: QuartzConfig = {
           secondary: "#1e66f5",
           tertiary: "#179287",
           highlight: "rgba(30, 102, 245, 0.15)",
+          textHighlight: "rgba(30, 102, 245, 0.15)",
         },
         darkMode: {
           light: "#1e1e2e",
@@ -37,8 +40,11 @@ const config: QuartzConfig = {
           secondary: "#89b4fa",
           tertiary: "#94e2d5",
           highlight: "rgba(137, 180, 250, 0.15)",
+          textHighlight: "rgba(137, 180, 250, 0.15)",
         },
       },
+      cdnCaching: true,
+      fontOrigin: "googleFonts",
     },
   },
   plugins: {
@@ -58,7 +64,7 @@ const config: QuartzConfig = {
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
-      Plugin.ComponentResources({ fontOrigin: "googleFonts" }),
+      Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
