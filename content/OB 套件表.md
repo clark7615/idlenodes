@@ -1,5 +1,5 @@
 ---
-title: "進階使用方式"
+title: "儀式用具：Obsidian 套件推薦"
 description: "OB套件 "
 permalink: "/OB 套件表"
 class: "Oracle"
@@ -34,3 +34,4 @@ OB套件
 - 加上標籤
 - 準備雙鏈結
 
+回到法典目錄 [[index.md]]
