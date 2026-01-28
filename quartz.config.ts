@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "懶惰人工作室 - Idle Nodes",
+    pageTitle: "閒逸神諭所 - Idle Oracles",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
