@@ -1,7 +1,7 @@
 ---
 title: "📅 高效會議方法論"
 description: "本教學旨在幫助你有效地組織正式會議，以提高會議效率和產出成果。"
-permalink: "/Grimoires/高效會議方法論"
+permalink: "/efficient-meeting-methodology"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -107,7 +107,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何在Scrum中運用會議？參考 [[Scrum 敏捷式開發的優秀框架]]
-> - 想了解如何推進跨部門會議？參考 [[跨部門推進項目受阻應該怎麼辦？]]
-> - 想了解如何在會後追蹤行動項目？參考 [[工作上怎麼復盤]]
+> - 想了解如何在Scrum中運用會議？參考 [[Grimoires/scrum-agile-framework|Scrum 敏捷式開發的優秀框架]]
+> - 想了解如何推進跨部門會議？參考 [[Grimoires/cross-department-project-obstacles|跨部門推進項目受阻應該怎麼辦？]]
+> - 想了解如何在會後追蹤行動項目？參考 [[Grimoires/work-review-methodology|工作上怎麼復盤]]
 

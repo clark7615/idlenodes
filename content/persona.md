@@ -4,7 +4,7 @@ class: "Oracle"
 rarity: "Unique"
 icon: "👤"
 description: "> [!infobox]"
-permalink: "/角色卡"
+permalink: "/persona"
 tags:
   - General
 ---
@@ -48,61 +48,61 @@ tags:
 > *戰鬥用的核心技術能力*
 > 
 > ### 🖥️ 後端魔法 (Backend Magic)
-> - [[後端 CSD 架構]] `Passive`
-> - [[Java Container JVM 高效設置法]] `Buff`
-> - [[Swagger多站據合UI]] `Utility`
-> - [[使用 Newman 在 CICD 中執行自動化測試]] `Automation`
+> - [[Grimoires/backend-csd-architecture|後端 CSD 架構]] `Passive`
+> - [[Grimoires/java-container-jvm-settings|Java Container JVM 高效設置法]] `Buff`
+> - [[Grimoires/swagger-multi-site-ui|Swagger多站據合UI]] `Utility`
+> - [[Grimoires/newman-cicd-testing|使用 Newman 在 CICD 中執行自動化測試]] `Automation`
 > 
 > ### 🐳 容器召喚術 (Docker Summoning)
-> - [[Docker 容器資源限制說明文件]]
-> - [[Docker MCP Toolkit]]
-> - [[IntelliJ DevContainer 設定教學手冊]]
+> - [[Grimoires/docker-resource-limits|Docker 容器資源限制說明文件]]
+> - [[Grimoires/docker-mcp-toolkit|Docker MCP Toolkit]]
+> - [[Grimoires/intellij-devcontainer-guide|IntelliJ DevContainer 設定教學手冊]]
 > 
 > ### 🤖 人工智慧 (AI Mastery)
-> - [[AI與提示詞工程學：高效使用GPT的策略]] `Ultimate`
-> - [[AI提示詞完全攻略：有效引導大型語言模型]]
+> - [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]] `Ultimate`
+> - [[Grimoires/ai-prompts-guide|AI提示詞完全攻略：有效引導大型語言模型]]
 
 > [!abstract]- **被動技能 (Passive Skills)**
 > *永久提升角色素質的知識*
 > 
 > ### 🤝 向上管理 (Upward Management)
-> - [[SMART 原則是什麼？]]
-> - [[ART 原則是什麼？]]
-> - [[如何策略性動怒，展現溝通水平與高度？]]
+> - [[Grimoires/smart-principles|SMART 原則是什麼？]]
+> - [[Grimoires/art-principles|ART 原則是什麼？]]
+> - [[Grimoires/strategic-anger-communication|如何策略性動怒，展現溝通水平與高度？]]
 > 
 > ### 🏢 企業與專案管理 (Enterprise Management)
-> - [[Scrum 敏捷式開發的優秀框架]]
-> - [[高效會議方法論]]
-> - [[跨部門推進項目受阻應該怎麼辦？]]
-> - [[八種不同的員工類型]]
-> - [[2000年後員工如何管理以及帶領]]
-> - [[當領導感覺時間不夠，如何做好時間管理？]]
-> - [[讓每位員工都能把對話變成果]]
-> - [[工作上怎麼復盤]]
+> - [[Grimoires/scrum-agile-framework|Scrum 敏捷式開發的優秀框架]]
+> - [[Grimoires/efficient-meeting-methodology|高效會議方法論]]
+> - [[Grimoires/cross-department-project-obstacles|跨部門推進項目受阻應該怎麼辦？]]
+> - [[Grimoires/eight-types-of-employees|八種不同的員工類型]]
+> - [[Grimoires/managing-post-2000s-employees|2000年後員工如何管理以及帶領]]
+> - [[Grimoires/leadership-time-management|當領導感覺時間不夠，如何做好時間管理？]]
+> - [[Grimoires/effective-conversations|讓每位員工都能把對話變成果]]
+> - [[Grimoires/work-review-methodology|工作上怎麼復盤]]
 
 > [!tip]- **生產技能 (Crafting & Knowledge)**
 > *用於創造與輔助的技能*
 > 
 > ### 🎨 介面工藝 (UI/UX)
-> - [[UI 設計入門：從基礎到實作]]
+> - [[Grimoires/ui-design-basics|UI 設計入門：從基礎到實作]]
 > 
 > ### 💰 煉金術 (Finance)
-> - [[理財規劃與實務]]
+> - [[SageTower/financial-planning-practice|理財規劃與實務]]
 > 
 > ### 📢 吟遊詩人 (Marketing)
-> - [[個人行銷與形象管理]]
+> - [[SageTower/personal-branding-management|個人行銷與形象管理]]
 
 ## 🎒 冒險者背包 (Inventory)
 
 |    欄位    | 裝備名稱                                               | 效果            |
 | :------: | -------------------------------------------------- | ------------- |
-| **主手武器** | [[IntelliJ IDEA 設定建議]]                             | 程式開發效率 +50%   |
-| **副手武器** | [[VS Code 字體及套件設定指南 (macOS & Windows)]]            | 輕量編輯靈巧度 +30%  |
-|  **飾品**  | [[Git 配置秘笈]]                                       | 版本控制安全性 +100% |
-| **任務道具** | [[使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證]] | 雲端儲存空間        |
-|  **卷軸**  | [[自我程式碼品質管理系統]]                                    | 自動修復 Bug 機率提升 |
-| **攜帶物品** | [[玩具箱]]                                            | 無             |
-| **攜帶物品** | [[OB 套件表]]                                         | 無             |
+| **主手武器** | [[Forge/intellij-idea-settings|IntelliJ IDEA 設定建議]]                             | 程式開發效率 +50%   |
+| **副手武器** | [[Forge/vscode-setup-guide|VS Code 字體及套件設定指南 (macOS & Windows)]]            | 輕量編輯靈巧度 +30%  |
+|  **飾品**  | [[Grimoires/git-configuration|Git 配置秘笈]]                                       | 版本控制安全性 +100% |
+| **任務道具** | [[Quests/obsidian-image-hosting-gcp|使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證]] | 雲端儲存空間        |
+|  **卷軸**  | [[Quests/code-quality-management|自我程式碼品質管理系統]]                                    | 自動修復 Bug 機率提升 |
+| **攜帶物品** | [[toy-box|玩具箱]]                                            | 無             |
+| **攜帶物品** | [[obsidian-plugins|OB 套件表]]                                         | 無             |
 
 ---
 > [!quote] 角色語錄

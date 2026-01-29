@@ -1,7 +1,7 @@
 ---
 title: "🎨 UI 設計入門：從基礎到實作"
 description: "*   **學習 UI 設計的基本原則：** 視覺層次、平衡、對比等。"
-permalink: "/Grimoires/UI 設計入門：從基礎到實作"
+permalink: "/ui-design-basics"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"

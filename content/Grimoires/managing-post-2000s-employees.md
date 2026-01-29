@@ -1,7 +1,7 @@
 ---
 title: "🚀 這樣帶領「Z世代」員工，主管輕鬆多了！"
 description: "*   **X理論：老闆覺得員工都很懶散，不盯緊一點就不會做事。"
-permalink: "/Grimoires/2000年後員工如何管理以及帶領"
+permalink: "/managing-post-2000s-employees"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -62,7 +62,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解員工的職業錨類型？參考 [[八種不同的員工類型]]
-> - 想了解如何提升溝通效果？參考 [[讓每位員工都能把對話變成果]]
+> - 想了解員工的職業錨類型？參考 [[Grimoires/eight-types-of-employees|八種不同的員工類型]]
+> - 想了解如何提升溝通效果？參考 [[Grimoires/effective-conversations|讓每位員工都能把對話變成果]]
 > - 了解不同世代員工的特性，有助於更精準的管理與領導策略制定。
 

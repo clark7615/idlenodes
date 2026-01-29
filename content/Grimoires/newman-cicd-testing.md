@@ -1,7 +1,7 @@
 ---
 title: "🧪 使用 Newman 在 CI/CD 中執行自動化測試"
 description: "本教學將引導您如何使用 Newman 在 CI/CD 流程中執行自動化 API 測試。我們將使用 Postman 撰寫測試，匯出成 JSON 檔案，並在 Bitbucket CI/CD 中透過 Newman 執行這些測試。"
-permalink: "/Grimoires/使用 Newman 在 CICD 中執行自動化測試"
+permalink: "/newman-cicd-testing"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"

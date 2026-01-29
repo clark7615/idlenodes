@@ -1,7 +1,7 @@
 ---
 title: "🏗️ 後端 CSD 架構"
 description: "*   **MVC 架構：** 一種軟體設計模式，將應用程式分為三個相互連接的部分："
-permalink: "/Grimoires/後端 CSD 架構"
+permalink: "/backend-csd-architecture"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -140,7 +140,7 @@ type Student struct {
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何為CSD架構建立API文檔？參考 [[Swagger多站據合UI]]
-> - 想了解如何測試後端API？參考 [[使用 Newman 在 CICD 中執行自動化測試]]
+> - 想了解如何為CSD架構建立API文檔？參考 [[Grimoires/swagger-multi-site-ui|Swagger多站據合UI]]
+> - 想了解如何測試後端API？參考 [[Grimoires/newman-cicd-testing|使用 Newman 在 CICD 中執行自動化測試]]
 > - Swagger是後端API文檔化的重要工具，與CSD架構搭配使用能建立完整的後端開發流程。
 

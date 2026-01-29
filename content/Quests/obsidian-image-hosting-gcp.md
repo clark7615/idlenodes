@@ -1,7 +1,7 @@
 ---
 title: "☁️ 使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證"
 description: "- 註冊 GCP 並啟用 `$300` 試用（若尚未）"
-permalink: "/Quests/使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證"
+permalink: "/obsidian-image-hosting-gcp"
 class: "Oracle"
 rarity: "Epic"
 icon: "📜"

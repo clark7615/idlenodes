@@ -1,7 +1,7 @@
 ---
 title: "🐳 Docker 容器資源限制說明文件"
 description: "使用 `--cpus` 參數設定容器最多可使用的 CPU 核心數，例如："
-permalink: "/Grimoires/Docker 容器資源限制說明文件"
+permalink: "/docker-resource-limits"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"

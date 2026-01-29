@@ -1,7 +1,7 @@
 ---
 title: "☕ Java Container JVM 高效設置法"
 description: "當 Java 應用程式在 JVM 上運行時，預設情況下 JVM 會預先分配一定量的記憶體。在容器環境（如 Docker）中，這種預設行為可能會導致系統資源的過度佔用，特別是當應用程式的實際需求遠小於 JVM 的預設分配量時。"
-permalink: "/Grimoires/Java Container JVM 高效設置法"
+permalink: "/java-container-jvm-settings"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"

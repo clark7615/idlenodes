@@ -1,7 +1,7 @@
 ---
 title: "🤝 如何透過項目相關者推進跨部門工作項目"
 description: "在跨部門合作的項目中，理解並管理各方利益相關者是確保項目成功的關鍵。本教學文件將引導您如何運用「利益相關分析模型」，有效推進您的跨部門工作。"
-permalink: "/Grimoires/跨部門推進項目受阻應該怎麼辦？"
+permalink: "/cross-department-project-obstacles"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -81,7 +81,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何組織有效的跨部門會議？參考 [[高效會議方法論]]
-> - 想了解如何設定項目目標？參考 [[SMART 原則是什麼？]]
-> - 想了解如何在敏捷框架中推進項目？參考 [[Scrum 敏捷式開發的優秀框架]]
+> - 想了解如何組織有效的跨部門會議？參考 [[Grimoires/efficient-meeting-methodology|高效會議方法論]]
+> - 想了解如何設定項目目標？參考 [[Grimoires/smart-principles|SMART 原則是什麼？]]
+> - 想了解如何在敏捷框架中推進項目？參考 [[Grimoires/scrum-agile-framework|Scrum 敏捷式開發的優秀框架]]
 

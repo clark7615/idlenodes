@@ -1,7 +1,7 @@
 ---
 title: "🛠️ Git 配置秘笈"
 description: "~/.gitconfig 個人客製化設定，影響使用者**所有**的 Git 專案。"
-permalink: "/Grimoires/Git 配置秘笈"
+permalink: "/git-configuration"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"

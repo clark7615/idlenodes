@@ -28,43 +28,43 @@ tags:
 
 > [!ABSTRACT]- 📜 冒險任務 (Combat Records)
 > *記載著在專案戰場上的征戰歷程、系統架構與實戰成果。*
-> - [[Quests/使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證|雲端圖床召喚術 (GCP & Cloud Run)]]
-> - [[Quests/自我程式碼品質管理系統|法師自我守護：程式代碼品質管理]]
+> - [[Quests/obsidian-image-hosting-gcp|雲端圖床召喚術 (GCP & Cloud Run)]]
+> - [[Quests/code-quality-management|法師自我守護：程式代碼品質管理]]
 
 > [!BOOK]- 📖 奧術法典 (Arcane Spellbook)
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
-> - [[Grimoires/AI提示詞完全攻略：有效引導大型語言模型|AI 提示詞完全攻略：言靈之術]]
-> - [[Grimoires/AI與提示詞工程學：高效使用GPT的策略|AI 與提示詞工程學：思維引導]]
-> - [[Grimoires/Docker MCP Toolkit|Docker MCP 召喚術法]]
-> - [[Grimoires/Scrum 敏捷式開發的優秀框架|Scrum 敏捷戰術：團隊協作流]]
-> - [[Grimoires/後端 CSD 架構|奧術核心：後端 CSD 架構]]
-> - [[Grimoires/高效會議方法論|高效會議：精神鏈接法]]
-> - [[Grimoires/當領導感覺時間不夠，如何做好時間管理？|時間控制：高階領導管理]]
-> - [[Grimoires/跨部門推進項目受阻應該怎麼辦？|外交談判：跨部門障礙消除]]
-> - [[Grimoires/2000年後員工如何管理以及帶領|世代契約：新人類領導學]]
-> - [[Grimoires/讓每位員工都能把對話變成果|語言具現：將對話轉化為現實]]
-> - [[Grimoires/工作上怎麼復盤|戰鬥復盤：經驗值獲取指南]]
-> - [[Grimoires/八種不同的員工類型|眼界大開：職場生物多樣性]]
-> - [[Grimoires/如何策略性動怒，展現溝通水平與高度？|情緒魔法：高層次的狂暴術]]
-> - [[Grimoires/ART 原則是什麼？|ART 符文：目標設定準則]]
-> - [[Grimoires/SMART 原則是什麼？|SMART 符文：精準任務目標]]
-> - [[Grimoires/Swagger多站據合UI|元素匯聚：Swagger 多站整合 UI]]
-> - [[Grimoires/UI 設計入門：從基礎到實作|幻術基礎：UI 設計入門]]
-> - [[Grimoires/Git 配置秘笈|版本控制咒語：Git 配置秘笈]]
-> - [[Grimoires/IntelliJ DevContainer 設定教學手冊|魔法工坊配置：DevContainer 教學]]
-> - [[Grimoires/Java Container JVM 高效設置法|JVM 強化：容器化高效配置]]
-> - [[Grimoires/Docker 容器資源限制說明文件|容器禁錮：資源限制方案]]
-> - [[Grimoires/使用 Newman 在 CICD 中執行自動化測試|自動戰鬥：Newman 測試召喚]]
+> - [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
+> - [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
+> - [[Grimoires/docker-mcp-toolkit|Docker MCP 召喚術法]]
+> - [[Grimoires/scrum-agile-framework|Scrum 敏捷戰術：團隊協作流]]
+> - [[Grimoires/backend-csd-architecture|奧術核心：後端 CSD 架構]]
+> - [[Grimoires/efficient-meeting-methodology|高效會議：精神鏈接法]]
+> - [[Grimoires/leadership-time-management|時間控制：高階領導管理]]
+> - [[Grimoires/cross-department-project-obstacles|外交談判：跨部門障礙消除]]
+> - [[Grimoires/managing-post-2000s-employees|世代契約：新人類領導學]]
+> - [[Grimoires/effective-conversations|語言具現：將對話轉化為現實]]
+> - [[Grimoires/work-review-methodology|戰鬥復盤：經驗值獲取指南]]
+> - [[Grimoires/eight-types-of-employees|眼界大開：職場生物多樣性]]
+> - [[Grimoires/strategic-anger-communication|情緒魔法：高層次的狂暴術]]
+> - [[Grimoires/art-principles|ART 符文：目標設定準則]]
+> - [[Grimoires/smart-principles|SMART 符文：精準任務目標]]
+> - [[Grimoires/swagger-multi-site-ui|元素匯聚：Swagger 多站整合 UI]]
+> - [[Grimoires/ui-design-basics|幻術基礎：UI 設計入門]]
+> - [[Grimoires/git-configuration|版本控制咒語：Git 配置秘笈]]
+> - [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
+> - [[Grimoires/java-container-jvm-settings|JVM 強化：容器化高效配置]]
+> - [[Grimoires/docker-resource-limits|容器禁錮：資源限制方案]]
+> - [[Grimoires/newman-cicd-testing|自動戰鬥：Newman 測試召喚]]
 
 > [!SAGE]- 🏰 賢者塔 (Wisdom Archives)
 > *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
-> - [[SageTower/個人行銷與形象管理|吟遊詩人傳奇：個人行銷與形象]]
-> - [[SageTower/理財規劃與實務|現代煉金術：理財規劃與實務]]
+> - [[SageTower/personal-branding-management|吟遊詩人傳奇：個人行銷與形象]]
+> - [[SageTower/financial-planning-practice|現代煉金術：理財規劃與實務]]
 
 > [!TOOL]- 🛠️ 鍛造工坊 (The Forge)
 > *工欲善其事，必先利其器。此處存放著先知的核心裝備配置。*
-> - [[Forge/IntelliJ IDEA 設定建議|核心裝備強化：IntelliJ IDEA 設定]]
-> - [[Forge/VS Code 字體及套件設定指南 (macOS & Windows)|輕量化武裝：VS Code 設定指南]]
+> - [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定]]
+> - [[Forge/vscode-setup-guide|輕量化武裝：VS Code 設定指南]]
 
 ---
 > [!TIP]

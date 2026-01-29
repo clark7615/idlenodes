@@ -1,7 +1,7 @@
 ---
 title: "🌱 GROW 實戰教學：讓每位員工都能把對話變成果"
 description: "GROW 模型是一套廣泛應用於教練指導與問題解決的框架，它透過四個簡單的步驟，引導對話從發散到收斂，確保每次討論都能產生具體的成果。這四個步驟分別是："
-permalink: "/Grimoires/讓每位員工都能把對話變成果"
+permalink: "/effective-conversations"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"

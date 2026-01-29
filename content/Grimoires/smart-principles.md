@@ -1,7 +1,7 @@
 ---
 title: "🔍 SMART 原則是什麼？"
 description: "SMART 原則是一種設定目標時的基本思維方式，協助確保目標清晰、可衡量、可實現、相關且有時限。它包含以下五個要素："
-permalink: "/Grimoires/SMART 原則是什麼？"
+permalink: "/smart-principles"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -96,8 +96,8 @@ SMART 原則是一種設定目標時的基本思維方式，協助確保目標�
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解另一種目標設定方法？參考 [[ART 原則是什麼？]]
-> - 想了解如何將SMART應用在時間管理上？參考 [[當領導感覺時間不夠，如何做好時間管理？]]
-> - 想了解如何在復盤中使用SMART？參考 [[工作上怎麼復盤]]
-> - 想了解如何在敏捷開發中設定SMART目標？參考 [[Scrum 敏捷式開發的優秀框架]]
+> - 想了解另一種目標設定方法？參考 [[Grimoires/art-principles|ART 原則是什麼？]]
+> - 想了解如何將SMART應用在時間管理上？參考 [[Grimoires/leadership-time-management|當領導感覺時間不夠，如何做好時間管理？]]
+> - 想了解如何在復盤中使用SMART？參考 [[Grimoires/work-review-methodology|工作上怎麼復盤]]
+> - 想了解如何在敏捷開發中設定SMART目標？參考 [[Grimoires/scrum-agile-framework|Scrum 敏捷式開發的優秀框架]]
 

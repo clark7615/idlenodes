@@ -1,7 +1,7 @@
 ---
 title: "🛠️ Docker MCP Toolkit"
 description: "AI MCP 伺服器是一種基於模型上下文協定 (Model Context Protocol) 的技術，旨在擴展 AI 應用程式的功能。"
-permalink: "/Grimoires/Docker MCP Toolkit"
+permalink: "/docker-mcp-toolkit"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -92,10 +92,10 @@ MCP 伺服器可以被視為 AI 代理程式的「知識庫」或「工具箱」
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何撰寫更好的AI提示詞？參考 [[AI提示詞完全攻略：有效引導大型語言模型]]
-> - 想了解AI與提示詞的基礎概念？參考 [[AI與提示詞工程學：高效使用GPT的策略]]
-> - 想了解如何設定DevContainer開發環境？參考 [[IntelliJ DevContainer 設定教學手冊]]
-> - 想了解Docker容器資源管理？參考 [[Docker 容器資源限制說明文件]]
+> - 想了解如何撰寫更好的AI提示詞？參考 [[Grimoires/ai-prompts-guide|AI提示詞完全攻略：有效引導大型語言模型]]
+> - 想了解AI與提示詞的基礎概念？參考 [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]]
+> - 想了解如何設定DevContainer開發環境？參考 [[Grimoires/intellij-devcontainer-guide|IntelliJ DevContainer 設定教學手冊]]
+> - 想了解Docker容器資源管理？參考 [[Grimoires/docker-resource-limits|Docker 容器資源限制說明文件]]
 > - 想了解容器化開發環境的具體設定？MCP提供豐富的上下文給AI，而DevContainer則提供一致的開發環境，兩者配合使用效果更佳。
 
 

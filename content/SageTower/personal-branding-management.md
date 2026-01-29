@@ -1,7 +1,7 @@
 ---
 title: "🎓 個人行銷與形象管理 - 09/17 面授筆記"
 description: "努力會帶來善報但是要懂得表現!"
-permalink: "/SageTower/個人行銷與形象管理"
+permalink: "/personal-branding-management"
 class: "Oracle"
 rarity: "Legendary"
 icon: "🏰"
@@ -1194,8 +1194,8 @@ https://www.arealme.com/type-a-or-type-b-personality-test/zh/
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解時間管理在個人行銷中的應用？參考第四章的時間管理內容，並可延伸閱讀 [[當領導感覺時間不夠，如何做好時間管理？]]
-> - 想了解如何設定個人目標？參考 [[SMART 原則是什麼？]]
+> - 想了解時間管理在個人行銷中的應用？參考第四章的時間管理內容，並可延伸閱讀 [[Grimoires/leadership-time-management|當領導感覺時間不夠，如何做好時間管理？]]
+> - 想了解如何設定個人目標？參考 [[Grimoires/smart-principles|SMART 原則是什麼？]]
 
 # 💻 個人行銷與形象管理 - 線上課程筆記
 努力工作你的價值是否能夠體現？做了很多沒人知道那你做了嗎？

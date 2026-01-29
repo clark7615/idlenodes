@@ -1,7 +1,7 @@
 ---
 title: "🏃 Scrum 敏捷式開發的優秀框架"
 description: "Scrum 是一種迭代漸進式的專案管理框架 (_iterative incremental framework_)，旨在靈活地適應客戶需求，並隨著變化不斷改進開發設計內容。雖然 Scrum 常被視為一種方法論，但更精確地說，它是一個高效的專案管理框架。"
-permalink: "/Grimoires/Scrum 敏捷式開發的優秀框架"
+permalink: "/scrum-agile-framework"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -217,7 +217,7 @@ Scrum 團隊透過兩種主要方法估算和分配故事點數，以確保 Spri
 
 透過整合容量與速度，Scrum 團隊可以更有效地分配故事點數，做出實際且可達成的承諾，從而提高交付的穩定性與成功率。
 
-> 💡 **目標設定建議**：在 Sprint 規劃時，建議使用 [[SMART 原則是什麼？]] 來設定 Sprint 目標，確保目標具體、可衡量且有時限。
+> 💡 **目標設定建議**：在 Sprint 規劃時，建議使用 [[Grimoires/smart-principles|SMART 原則是什麼？]] 來設定 Sprint 目標，確保目標具體、可衡量且有時限。
 
 ## Scrum 角色
 
@@ -313,7 +313,7 @@ Scrum 工件是 Scrum 過程中產生的關鍵資訊：
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何設定明確的Sprint目標？參考 [[SMART 原則是什麼？]]
-> - 想了解如何進行Sprint回顧？參考 [[工作上怎麼復盤]]
-> - 想了解如何組織高效的Sprint會議？參考 [[高效會議方法論]]
+> - 想了解如何設定明確的Sprint目標？參考 [[Grimoires/smart-principles|SMART 原則是什麼？]]
+> - 想了解如何進行Sprint回顧？參考 [[Grimoires/work-review-methodology|工作上怎麼復盤]]
+> - 想了解如何組織高效的Sprint會議？參考 [[Grimoires/efficient-meeting-methodology|高效會議方法論]]
 

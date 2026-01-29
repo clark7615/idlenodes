@@ -1,7 +1,7 @@
 ---
 title: "🔄 工作復盤方法"
 description: "*   **為什麼需要目標？** 目標就像導航系統的目的地，能幫助我們確認方向，避免迷失。"
-permalink: "/Grimoires/工作上怎麼復盤"
+permalink: "/work-review-methodology"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -14,7 +14,7 @@ tags:
 ## 1. 明確目標
 
 *   **為什麼需要目標？** 目標就像導航系統的目的地，能幫助我們確認方向，避免迷失。
-*   **目標怎麼訂？** 訂定目標時，可以參考 **SMART原則**，讓你的目標更清晰、更容易達成。想了解更多 SMART 原則，可以參考[[SMART 原則是什麼？]]。
+*   **目標怎麼訂？** 訂定目標時，可以參考 **SMART原則**，讓你的目標更清晰、更容易達成。想了解更多 SMART 原則，可以參考[[Grimoires/smart-principles|SMART 原則是什麼？]]。
 
 ## 2. 全程記錄
 
@@ -92,7 +92,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何設定明確的復盤目標？參考 [[SMART 原則是什麼？]]
-> - 想了解如何管理復盤時間與優先級？參考 [[當領導感覺時間不夠，如何做好時間管理？]]
-> - 想了解如何在敏捷開發中應用復盤？參考 [[Scrum 敏捷式開發的優秀框架]]
+> - 想了解如何設定明確的復盤目標？參考 [[Grimoires/smart-principles|SMART 原則是什麼？]]
+> - 想了解如何管理復盤時間與優先級？參考 [[Grimoires/leadership-time-management|當領導感覺時間不夠，如何做好時間管理？]]
+> - 想了解如何在敏捷開發中應用復盤？參考 [[Grimoires/scrum-agile-framework|Scrum 敏捷式開發的優秀框架]]
 

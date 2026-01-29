@@ -1,7 +1,7 @@
 ---
 title: "⚙️ IntelliJ IDEA 設定建議"
 description: "1.  **字體**"
-permalink: "/Forge/IntelliJ IDEA 設定建議"
+permalink: "/intellij-idea-settings"
 class: "Oracle"
 rarity: "Common"
 icon: "🛠️"
@@ -28,7 +28,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解 VS Code 的字體與套件設定？參考 [[VS Code 字體及套件設定指南 (macOS & Windows)]]
-> - 想了解 Git 設定？參考 [[Git 配置秘笈]]
+> - 想了解 VS Code 的字體與套件設定？參考 [[Forge/vscode-setup-guide|VS Code 字體及套件設定指南 (macOS & Windows)]]
+> - 想了解 Git 設定？參考 [[Grimoires/git-configuration|Git 配置秘笈]]
 > - 兩種 IDE 的設定可以保持一致性，讓你在不同開發環境中都有相同的體驗。
 

@@ -1,7 +1,7 @@
 ---
 title: "先知的寶物珍藏"
 description: "[reactbits](https://reactbits.dev/) 帥氣又拉風的前端動畫套件"
-permalink: "/玩具箱"
+permalink: "/toy-box"
 class: "Oracle"
 rarity: "Common"
 icon: "📝"

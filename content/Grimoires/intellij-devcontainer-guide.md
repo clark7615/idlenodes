@@ -1,7 +1,7 @@
 ---
 title: "📦 IntelliJ DevContainer 設定教學手冊"
 description: "本教學將引導您如何在 IntelliJ 中設定 DevContainer，以便在隔離且一致的開發環境中工作。"
-permalink: "/Grimoires/IntelliJ DevContainer 設定教學手冊"
+permalink: "/intellij-devcontainer-guide"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -104,8 +104,8 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何擴展AI開發環境？參考 [[Docker MCP Toolkit]]
-> - 想了解其他IDE設定？參考 [[IntelliJ IDEA 設定建議]]
-> - 想了解Docker容器管理？參考 [[Docker 容器資源限制說明文件]]
+> - 想了解如何擴展AI開發環境？參考 [[Grimoires/docker-mcp-toolkit|Docker MCP Toolkit]]
+> - 想了解其他IDE設定？參考 [[Forge/intellij-idea-settings|IntelliJ IDEA 設定建議]]
+> - 想了解Docker容器管理？參考 [[Grimoires/docker-resource-limits|Docker 容器資源限制說明文件]]
 > - 想了解如何在容器化環境中為AI提供更好的上下文？MCP與DevContainer結合使用能建立強大的AI輔助開發環境。
 

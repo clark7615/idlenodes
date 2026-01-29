@@ -1,7 +1,7 @@
 ---
 title: "🤖 AI 與提示詞工程學：高效使用 GPT 的策略"
 description: "在深入探討如何高效使用 GPT 之前，了解 AI 技術的發展脈絡有助於我們更好地理解提示詞在 AI 應用中的關鍵作用。從最初的關鍵字提取，到語意分析，再到自然語言理解，AI 的演進讓我們不僅能夠讓機器理解文本，還能夠與其進行更為精細和有效的互動。隨著 GPT 等大型語言模型的崛起，提示詞工程學成為了..."
-permalink: "/Grimoires/AI與提示詞工程學：高效使用GPT的策略"
+permalink: "/gpt-prompt-engineering"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -148,6 +148,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解更詳細的提示詞框架與技巧？參考 [[AI提示詞完全攻略：有效引導大型語言模型]]
-> - 想了解如何使用Docker MCP擴展AI功能？參考 [[Docker MCP Toolkit]]
+> - 想了解更詳細的提示詞框架與技巧？參考 [[Grimoires/ai-prompts-guide|AI提示詞完全攻略：有效引導大型語言模型]]
+> - 想了解如何使用Docker MCP擴展AI功能？參考 [[Grimoires/docker-mcp-toolkit|Docker MCP Toolkit]]
 

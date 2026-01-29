@@ -1,7 +1,7 @@
 ---
 title: "📜 AI 提示詞完全攻略：有效引導大型語言模型"
 description: "**本攻略將聚焦於如何有效引導大型語言模型（Large Language Model, 簡稱 LLM）。文中提及的「AI」，若非特別指明，通常即指 LLM。**"
-permalink: "/Grimoires/AI提示詞完全攻略：有效引導大型語言模型"
+permalink: "/ai-prompts-guide"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -194,7 +194,7 @@ TOT 是一種更進階的推理方式，它不像 COT 那樣只走單一路線�
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解AI發展脈絡與使用策略？參考 [[AI與提示詞工程學：高效使用GPT的策略]]
-> - 想了解如何使用MCP為AI提供更好的上下文？參考 [[Docker MCP Toolkit]]
+> - 想了解AI發展脈絡與使用策略？參考 [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]]
+> - 想了解如何使用MCP為AI提供更好的上下文？參考 [[Grimoires/docker-mcp-toolkit|Docker MCP Toolkit]]
 
 

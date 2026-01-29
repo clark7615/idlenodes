@@ -1,7 +1,7 @@
 ---
 title: "💻 VS Code 字體及套件設定指南 (macOS & Windows)"
 description: "這份指南旨在協助您在 macOS 和 Windows 系統上快速配置 VS Code 的字體和套件，以便在重灌系統後能快速恢復您的開發環境。"
-permalink: "/Forge/VS Code 字體及套件設定指南 (macOS & Windows)"
+permalink: "/vscode-setup-guide"
 class: "Oracle"
 rarity: "Common"
 icon: "🛠️"
@@ -117,7 +117,7 @@ brew install --cask font-fira-code
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解 IntelliJ IDEA 的設定建議？參考 [[IntelliJ IDEA 設定建議]]
-> - 想了解 Git 配置？參考 [[Git 配置秘笈]]
+> - 想了解 IntelliJ IDEA 的設定建議？參考 [[Forge/intellij-idea-settings|IntelliJ IDEA 設定建議]]
+> - 想了解 Git 配置？參考 [[Grimoires/git-configuration|Git 配置秘笈]]
 > - 兩種 IDE 的設定可以保持一致性，讓你在不同開發環境中都有相同的體驗。
 

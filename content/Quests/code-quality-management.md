@@ -1,7 +1,7 @@
 ---
 title: "🔍 自我程式碼品質管理系統"
 description: "鑑於我的開發程式碼品質雖然有一定的水準，但是我還是想要更加精進。"
-permalink: "/Quests/自我程式碼品質管理系統"
+permalink: "/code-quality-management"
 class: "Oracle"
 rarity: "Epic"
 icon: "📜"

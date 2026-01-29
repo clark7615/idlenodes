@@ -1,7 +1,7 @@
 ---
 title: "儀式用具：Obsidian 套件推薦"
 description: "OB套件 "
-permalink: "/OB 套件表"
+permalink: "/obsidian-plugins"
 class: "Oracle"
 rarity: "Common"
 icon: "📝"

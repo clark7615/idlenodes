@@ -1,7 +1,7 @@
 ---
 title: "🔍 ART 原則是什麼？"
 description: "ART 原則是一種專案或工作規劃時的基本思維方式，包含以下三個要素："
-permalink: "/Grimoires/ART 原則是什麼？"
+permalink: "/art-principles"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -77,6 +77,6 @@ ART 原則是一種專案或工作規劃時的基本思維方式，包含以下�
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解另一種目標設定方法？參考 [[SMART 原則是什麼？]]
-> - 想了解如何管理專案時間？參考 [[當領導感覺時間不夠，如何做好時間管理？]]
+> - 想了解另一種目標設定方法？參考 [[Grimoires/smart-principles|SMART 原則是什麼？]]
+> - 想了解如何管理專案時間？參考 [[Grimoires/leadership-time-management|當領導感覺時間不夠，如何做好時間管理？]]
 

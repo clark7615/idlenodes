@@ -1,7 +1,7 @@
 ---
 title: 📢 如何策略性動怒，展現溝通水平與高度？
 description: 儒家心法 - 周敦頤 心學
-permalink: /Grimoires/如何策略性動怒，展現溝通水平與高度？
+permalink: "/strategic-anger-communication"
 class: Oracle
 rarity: Rare
 icon: 📖

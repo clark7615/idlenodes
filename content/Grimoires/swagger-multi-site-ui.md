@@ -1,7 +1,7 @@
 ---
 title: "📖 使用 Spring Cloud Gateway 整合多個微服務的 Swagger UI"
 description: "在微服務架構中，每個微服務通常都有自己的 Swagger API 文件，用於描述其提供的 API 接口。然而，當微服務數量眾多時，開發人員需要逐一查看每個微服務的 Swagger 文件，才能了解整個系統的 API 接口，這非常不方便。"
-permalink: "/Grimoires/Swagger多站據合UI"
+permalink: "/swagger-multi-site-ui"
 class: "Oracle"
 rarity: "Rare"
 icon: "📖"
@@ -157,7 +157,7 @@ public class GatewayApplication {
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解後端架構的設計模式？參考 [[後端 CSD 架構]]
-> - 想了解如何測試API？參考 [[使用 Newman 在 CICD 中執行自動化測試]]
+> - 想了解後端架構的設計模式？參考 [[Grimoires/backend-csd-architecture|後端 CSD 架構]]
+> - 想了解如何測試API？參考 [[Grimoires/newman-cicd-testing|使用 Newman 在 CICD 中執行自動化測試]]
 > - Swagger是後端API文檔化的重要工具，與CSD架構搭配使用能建立完整的後端開發流程。
 
