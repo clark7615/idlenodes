@@ -84,6 +84,7 @@ export interface GlobalConfiguration {
    */
   locale: ValidLocale
   googleSiteVerification?: string
+  googleAdsense?: string
 }
 
 export interface QuartzConfig {

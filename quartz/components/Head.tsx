@@ -43,6 +43,13 @@ export default (() => {
         {cfg.googleSiteVerification && (
           <meta name="google-site-verification" content={cfg.googleSiteVerification} />
         )}
+        {cfg.googleAdsense && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${cfg.googleAdsense}`}
+            crossOrigin="anonymous"
+          ></script>
+        )}
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />

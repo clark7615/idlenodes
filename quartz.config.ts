@@ -14,6 +14,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     locale: "zh-TW",
     googleSiteVerification: "Xo7GmRfXWhOt9cqpMqyZ7sbNLCvIrFPRhxnFPRBJSt4",
+    googleAdsense: "ca-pub-3656812861576469",
     theme: {
       typography: {
         header: "Outfit",
