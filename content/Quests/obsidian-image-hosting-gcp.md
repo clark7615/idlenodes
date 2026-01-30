@@ -1,6 +1,6 @@
 ---
 title: "☁️ 使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證"
-description: "- 註冊 GCP 並啟用 `$300` 試用（若尚未）"
+description: "利用 Google Cloud Platform 免費額度，透過 Golang 與 Cloud Run 建立自定圖片上傳 API。"
 permalink: "/obsidian-image-hosting-gcp"
 class: "Oracle"
 rarity: "Epic"

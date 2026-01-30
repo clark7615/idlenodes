@@ -1,6 +1,6 @@
 ---
 title: "🚀 這樣帶領「Z世代」員工，主管輕鬆多了！"
-description: "*   **X理論：老闆覺得員工都很懶散，不盯緊一點就不會做事。"
+description: "探討 X、Y 及超 Y 理論在管理 Z 世代員工時的應用，打造高效互信的現代團隊環境。"
 permalink: "/managing-post-2000s-employees"
 class: "Oracle"
 rarity: "Rare"

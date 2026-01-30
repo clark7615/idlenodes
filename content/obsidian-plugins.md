@@ -1,6 +1,6 @@
 ---
 title: "儀式用具：Obsidian 套件推薦"
-description: "OB套件 "
+description: "精選 Obsidian 必備套件清單，包含熱力圖、資料庫查詢、模板工具等，打造最強知識庫。"
 permalink: "/obsidian-plugins"
 class: "Oracle"
 rarity: "Common"

@@ -1,6 +1,6 @@
 ---
 title: "🔍 自我程式碼品質管理系統"
-description: "鑑於我的開發程式碼品質雖然有一定的水準，但是我還是想要更加精進。"
+description: "建立一套基於 Docker、SonarQube 與 SonarLint 的程式碼品質監控系統，持續優化開發水準。"
 permalink: "/code-quality-management"
 class: "Oracle"
 rarity: "Epic"
