@@ -13,6 +13,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
     locale: "zh-TW",
+    googleSiteVerification: "Xo7GmRfXWhOt9cqpMqyZ7sbNLCvIrFPRhxnFPRBJSt4",
     theme: {
       typography: {
         header: "Outfit",
