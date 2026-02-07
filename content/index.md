@@ -65,6 +65,7 @@ tags:
 > *工欲善其事，必先利其器。此處存放著先知的核心裝備配置。*
 > - [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定]]
 > - [[Forge/vscode-setup-guide|輕量化武裝：VS Code 設定指南]]
+> - [[leather-wallet-design|奧術皮藝：長夾打版聖典]]
 
 ---
 > [!TIP]

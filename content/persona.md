@@ -89,6 +89,9 @@ tags:
 > ### 💰 煉金術 (Finance)
 > - [[SageTower/financial-planning-practice|理財規劃與實務]]
 > 
+> ### ⚒️ 奧術皮藝 (Leathercrafting)
+> - [[leather-wallet-design|長夾打版聖典]]
+> 
 > ### 📢 吟遊詩人 (Marketing)
 > - [[SageTower/personal-branding-management|個人行銷與形象管理]]
 
