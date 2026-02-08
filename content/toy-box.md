@@ -14,5 +14,5 @@ tags:
 [reactbits](https://reactbits.dev/) 帥氣又拉風的前端動畫套件
 [primereact](https://primereact.org/) react UI kit
 [nivo.rocks](https://nivo.rocks/) chat ~
-
+[Beads](https://github.com/steveyegge/beads) 基於Git的 ai 上下文記憶工具。
 回到法典目錄 [[index.md]]
