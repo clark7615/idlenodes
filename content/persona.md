@@ -10,7 +10,7 @@ tags:
 ---
 
 > [!infobox]
-> # 穆野靜風
+> # 穆野靜楓
 > ![](https://static-cdn.jtvnw.net/jtv_user_pictures/28c0d698-eb3a-4dba-9643-ee0b019c7ef0-profile_image-300x300.png)
 > ##### 角色概要 (Character Profile)
 > | | |
