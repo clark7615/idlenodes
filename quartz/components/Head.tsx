@@ -101,6 +101,20 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+        {cfg.baseUrl && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": cfg.pageTitle,
+                "alternateName": ["閒逸神諭所", "Idle Oracles"],
+                "url": `https://${cfg.baseUrl}`,
+              }),
+            }}
+          ></script>
+        )}
         {additionalHead.map((resource) => {
           if (typeof resource === "function") {
             return resource(fileData)
