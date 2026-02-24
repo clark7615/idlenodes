@@ -30,6 +30,7 @@ tags:
 > *記載著在專案戰場上的征戰歷程、系統架構與實戰成果。*
 > - [[Quests/obsidian-image-hosting-gcp|雲端圖床召喚術 (GCP & Cloud Run)]]
 > - [[Quests/code-quality-management|法師自我守護：程式代碼品質管理]]
+> - [[Quests/internal-learning-system|公會知識傳承結界：企業內訓系統部署]]
 
 > [!BOOK]- 📖 奧術法典 (Arcane Spellbook)
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
