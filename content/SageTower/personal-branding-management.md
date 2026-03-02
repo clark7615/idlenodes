@@ -1,10 +1,10 @@
 ---
-title: "🎓 個人行銷與形象管理 - 09/17 面授筆記"
-description: "努力會帶來善報但是要懂得表現!"
-permalink: "/personal-branding-management"
-class: "Oracle"
-rarity: "Legendary"
-icon: "🏰"
+title: 🎓 個人行銷與形象管理
+description: 努力會帶來善報但是要懂得表現!
+permalink: /personal-branding-management
+class: Oracle
+rarity: Legendary
+icon: 🏰
 tags:
   - SageTower
 ---

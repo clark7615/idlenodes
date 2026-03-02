@@ -1,10 +1,10 @@
 ---
-title: "💰 理財規劃與實務"
-description: "- 第 1 章 理財規劃概論"
-permalink: "/financial-planning-practice"
-class: "Oracle"
-rarity: "Legendary"
-icon: "🏰"
+title: 💰 理財規劃與實務
+description: 你不理財財不理你
+permalink: /financial-planning-practice
+class: Oracle
+rarity: Legendary
+icon: 🏰
 tags:
   - SageTower
 ---
