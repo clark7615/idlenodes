@@ -94,6 +94,10 @@ tags:
 > 
 > ### 📢 吟遊詩人 (Marketing)
 > - [[SageTower/personal-branding-management|個人行銷與形象管理]]
+> 
+> ### 🧠 智慧導引 (AI Prompting)
+> - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
+
 
 ## 🎒 冒險者背包 (Inventory)
 
