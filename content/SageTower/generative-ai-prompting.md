@@ -161,11 +161,11 @@ tags:
 - **自然語言**：ChatGPT、翻譯、內容生成
 - **音樂與影片創作**：AI 編曲、影片特效、Sora
 
-### 大語言模型
+# 大語言模型介紹
 
-- Large Language Model, LLM
-- Transformer為內部結構
-- Attention is All you Need 論文
+- **Large Language Model (LLM)**：指利用大量數據訓練出來的超大型語言模型。
+- **Transformer**：是目前主流 LLM（如 GPT 系列）的**核心內部架構**。
+- **Attention is All you Need**：這篇 **2017 年的論文**提出了 Transformer 架構，是現代 LLM 發展的關鍵基礎。
 
 ### 大語言模型為文字生成接龍器 (Token Prediction)
 
