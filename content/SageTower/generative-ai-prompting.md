@@ -316,3 +316,122 @@ tags:
 
 1. 點擊右下角三條線設定
 2. 點擊 Export，選擇要輸出的格式 (例如：PDF)
+
+
+<smtcmp_block language="markdown">
+## 什麼是Mermaid ?
+
+Mermaid.js 是一個開源的 JavaScript 圖表繪製庫。
+
+*   **簡單語法** $\rightarrow$ 多種圖表類型
+*   **Markdown 集成** ($\downarrow M\downarrow$) $\leftarrow$ VS Code 兼容性 ($\infty$)
+
+### Mermaid 場景應用實作
+- 流程圖
+- 甘特圖
+- 思維導圖
+
+### 應用場景 1 - 流程圖
+用途：展示過程和條件分支的決策邏輯
+
+**Mermaid 語法解析：**
+- ```mermaid 和最後的 ``` 是 Mermaid 生成圖表的語法
+- `flowchart TD`：流程圖方向 (Top Down, 從上到下)
+- 方框 `[]` 表示步驟, 菱形 `{}` 表示條件判斷
+
+**語法範例 (`exampleB.md`):**
+``` 
+flowchart TD
+A["A 開始"] --> B["B 步驟1"]
+B --> C{"C 條件判斷"}
+C -->|是| D["D 結果1"]
+C -->|否| E["E 結果2"]
+```
+```mermaid
+flowchart TD
+A["A 開始"] --> B["B 步驟1"]
+B --> C{"C 條件判斷"}
+C -->|是| D["D 結果1"]
+C -->|否| E["E 結果2"]
+```
+
+### **樣式定義屬性：**
+
+- **fill**: 背景顏色
+- **stroke**: 邊框顏色
+- **stroke-width**: 邊框粗度
+- **weight**: 格子寬度
+- **height**: 格子高度
+- **classDef**: 定義樣式以套用多個物件
+
+**箭頭樣式屬性：**
+
+- **stroke**: 箭頭線條顏色
+- **stroke-width**: 箭頭線條寬度
+- **linkStyle [數字]**: 指定該箭頭樣式 (索引從 0 開始)
+- **linkStyle default**: 預設箭頭樣式
+
+### **樣式設定範例：**
+```
+%% 格子樣式設定
+style A fill:lightblue,stroke:darkblue,stroke-width:2px
+style C fill:white,stroke:#333,stroke-width:2px
+
+%% Class 樣式設定
+classDef StyleBox fill:lightpurple,stroke:Wisteria,stroke-width:2px
+class B,D,E StyleBox
+
+%% 箭頭樣式設定
+linkStyle 0 stroke:orange,stroke-width:2px
+linkStyle default stroke:green,stroke-width:2px
+```
+
+
+### 應用場景 2 - 甘特圖
+
+用途：展示項目階段和時間計劃
+
+**語法解析：**
+
+- `title`: 甘特圖的標題
+- `section`: 階段分區
+- 每個任務包括：狀態 (`done`, `active`)、代碼、時間範圍
+
+**甘特圖語法範例：**
+
+
+```mermaid
+gantt
+title 部門工作計畫
+dateFormat YYYY-MM-DD
+section 部門A
+任務A1 :done, a1, 2024-01-01, 2024-01-05
+任務A2 :active, a2, 2024-01-06, 2024-01-15
+任務A3 : : a3, 2024-01-16, 2024-01-25
+section 部門B
+任務B1 :done, b1, 2024-01-01, 2024-01-08
+任務B2 :active, b2, 2024-01-09, 2024-01-20
+任務B3 : : b3, 2024-01-21, 2024-01-30
+```
+
+### 應用場景 3 - 思維導圖 (心智圖)
+
+用途：結構化展示專案目標及子目標
+
+**思維導圖語法範例：**
+```mermaid
+mindmap
+  root((專案核心目標))
+    設計階段
+      原型設計
+      界面優化
+    開發階段
+      前端開發
+      後端開發
+    測試階段
+      單元測試
+      整合測試
+    上線準備
+      部署
+      文檔準備
+```
