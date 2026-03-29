@@ -1,6 +1,6 @@
 ---
-title: "⚙️ 核心裝備強化：IntelliJ IDEA 設定建議"
-description: "為你的奧術工坊配置最精準的符文字體與幻術主題。"
+title: "⚙️ IntelliJ IDEA 設定建議"
+description: "1.  **字體**"
 permalink: "/intellij-idea-settings"
 class: "Oracle"
 rarity: "Common"
@@ -9,30 +9,26 @@ tags:
   - Forge
 ---
 
-# ⚙️ 核心裝備強化：IntelliJ IDEA 設定建議
+# ⚙️ IntelliJ IDEA 設定建議
+#軟體設定
+1.  **字體**
 
-> [!TOOL] 鍛造導言
-> 在這座數位工坊中，IntelliJ IDEA 是你最強大的法杖。透過正確的符文配置與視覺幻術，你能更清晰地洞察代碼背後的奧術邏輯。
+    *   在 IntelliJ IDEA 中，您可以在 `File` -> `Settings` -> `Editor` -> `Font` 中設定字體。
+    *   建議選擇 JetBrains Mono, Hack Nerd Font, 或 Fira Code。這些字體在 VS Code 中也很常用，可以保持一致的感覺。
+    *   設定 Line height 為 **20**。這個值與 VS Code 中的設定相同。
+    *   啟用 Ligatures (如果字體支援)。
+2.  **主題**
 
-## 1. 符文字體 (Runic Fonts)
-
-*   **配置路徑**：進入 `File` -> `Settings` -> `Editor` -> `Font`。
-*   **推薦符文**：建議選擇 `JetBrains Mono`, `Hack Nerd Font` 或 `Fira Code`。這些符文具有極高的辨識度，能助你穩定施法。
-*   **行高 (Line height)**：設定為 **20**，確保咒語之間有充足的呼吸空間。
-*   **連字 (Ligatures)**：建議啟用，將基礎符號聚合成更強大的複合符文。
-
-## 2. 幻術主題 (Arcane Themes)
-
-*   **配置路徑**：進入 `File` -> `Settings` -> `Editor` -> `Color Scheme`。
-*   **推薦視覺**：安裝 **Catppuccin for JetBrains** 插件。
-*   **風格選擇**：根據你的偏好選擇 `Frappé`（深邃暗色）或 `Latte`（明亮清晨），建議與 VS Code 保持一致，以穩定你的精神鏈接。
+    *   IntelliJ IDEA 支援多種主題。為了與 VS Code 的 Catppuccin 主題相似，您可以安裝 **Catppuccin for JetBrains** 主題插件。
+    *   在 `File` -> `Settings` -> `Editor` -> `Color Scheme` 中設定主題。
+    *   您可以根據 VS Code 中使用的 Catppuccin 風格（如 Frappé 或 Latte）選擇相應的 IntelliJ IDEA 主題。
 
 ---
 
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解 VS Code 的輕量化配置？參考 [[Forge/vscode-setup-guide|輕量化武裝：VS Code 設定指南]]
-> - 想了解 Git 咒語？參考 [[Grimoires/git-configuration|版本控制咒語：Git 配置秘笈]]
-> - 確保兩種 IDE 的同步感，讓你在技術大陸的任何角落都能發揮全力。
+> - 想了解 VS Code 的字體與套件設定？參考 [[Forge/vscode-setup-guide|VS Code 字體及套件設定指南 (macOS & Windows)]]
+> - 想了解 Git 設定？參考 [[Grimoires/git-configuration|Git 配置秘笈]]
+> - 兩種 IDE 的設定可以保持一致性，讓你在不同開發環境中都有相同的體驗。
 
