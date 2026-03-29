@@ -1,6 +1,6 @@
 ---
-title: "🐳 Docker 容器資源限制說明文件"
-description: "使用 `--cpus` 參數設定容器最多可使用的 CPU 核心數，例如："
+title: "🐳 容器禁錮：Docker 資源限制方案"
+description: "精準掌控容器結界的能量消耗，防止單一僕從過度索取導致整個位面崩備。"
 permalink: "/docker-resource-limits"
 class: "Oracle"
 rarity: "Rare"
@@ -9,95 +9,93 @@ tags:
   - Grimoires
 ---
 
-# 🐳 Docker 容器資源限制說明文件 
-#規劃 
+# 🐳 容器禁錮：Docker 資源限制方案
 
-## 1. 限制 CPU 使用量
+> [!BOOK] 秘卷記載
+> 在多重容器共存的環境中，若不加限制，貪婪的僕從將會吞噬主機位面的所有精華。透過**資源限制 (Resource Limits)**，我們可以為每個結界建立鋼鐵般的能量邊限。
 
-### 1.1 限制可使用的 CPU 數量
+---
 
-使用 `--cpus` 參數設定容器最多可使用的 CPU 核心數，例如：
+## 1. CPU 能量限制
 
-```
+### 1.1 核心配額
+使用 `--cpus` 參數設定容器最多可調用的 CPU 力量核心數。
+
+```bash
 docker run --cpus="1.5" my_container
 ```
+- **解讀**：該容器最多僅能發揮 **1.5 顆核心** 的效能。
 
-- `1.5` 表示最多可使用 **1.5 顆 CPU**。
+### 1.2 核心綁定 (Affinity)
+使用 `--cpuset-cpus` 將容器限制在特定的實體核心上運行。
 
-### 1.2 綁定特定 CPU 核心
-
-使用 `--cpuset-cpus` 參數讓容器僅在指定的 CPU 核心上運行，例如：
-
-```
+```bash
 docker run --cpuset-cpus="0,1" my_container
 ```
+- **解讀**：該僕從僅能於 **CPU 0 與 CPU 1** 的範疇內施法。
 
-- 只允許容器在 **CPU 0 和 CPU 1** 上運行。
+### 1.3 優先級權重 (Shares)
+使用 `--cpu-shares` 設定容器 CPU 權重（預設值為 1024）。
 
-### 1.3 設定 CPU 權重 (CPU Shares)
-
-使用 `--cpu-shares` 設定容器 CPU 權重（預設值為 1024），當 CPU 忙碌時影響資源分配，例如：
-```
+```bash
 docker run --cpu-shares=512 my_container
 ```
-
-- `512` 表示此容器的 CPU 權重為 **其他容器的一半**。
+- **解讀**：在能量枯竭的競爭時刻，此容器獲得的力量僅為標準容器的一半。
 
 ---
 
-## 2. 限制記憶體使用量
+## 2. 記憶體容量禁錮
 
-### 2.1 限制最大記憶體
+### 2.1 最大限額 (Memory)
+使用 `--memory` 參數限制容器可汲取的記憶體精華。
 
-使用 `—memory `參數限制容器可用的記憶體大小，例如：
-```
+```bash
 docker run --memory="512m" my_container
 ```
+- **解讀**：強行限制容器使用的記憶體不得超過 **512MB**。
 
-- 限制容器最多可使用 **512MB 記憶體**。
+### 2.2 交換空間限制 (Swap)
+使用 `--memory-swap` 參數設定記憶體 + Swap 總量。
 
-### 2.2 限制記憶體交換（Swap）
-
-使用 `--memory-swap` 參數設定記憶體 + Swap 總量，例如：
-```
+```bash
 docker run --memory="512m" --memory-swap="1g" my_container
 ```
-
-- 記憶體限制為 **512MB**，Swap 限制為 **512MB**，總計 **1GB**。
+- **解讀**：實體限額 512MB，總能量（含虛擬空間）限額 1GB。
 
 ---
 
-## 3. 限制 GPU 使用量
+## 3. 元素感應限制 (GPU)
 
-### 3.1 限制使用特定 GPU（適用於 NVIDIA GPU）
+### 3.1 限制使用特定 GPU
+針對需要強大元素計算（NVIDIA）的容器進行限制。
 
-使用 `--gpus` 參數控制容器可使用的 GPU 數量，例如：
-
-```
+```bash
 docker run --gpus 1 my_container
 ```
-
-- 限制容器最多使用 **1 張 GPU**。
+- **解讀**：僅允許調用 **1 張 GPU** 進行加速。
 
 ---
 
-## 4. 綜合限制（CPU、記憶體、綁定 CPU）
+## 4. 綜合禁錮範例
 
-可同時限制 CPU、記憶體及綁定特定 CPU，例如：
+同時施加多重限制，建立完美的穩定結界：
 
-```
+```bash
 docker run --cpus="2" --memory="1g" --cpuset-cpus="0,1" my_container
 ```
+- **效果**：限制 2 核心、1GB 記憶體，並精準定位於核心 0 與 1。
 
-- 限制最多 **2 顆 CPU**
-- 限制最大 **1GB 記憶體**
-- 綁定到 **CPU 0 和 1**
+> [!CAUTION] 警告
+> - 若未設置限制，僕從預設將佔用主機所有資源。
+> - `--memory-swap` 必須大於 `--memory`，否則召喚儀式將失敗。
+> - 在 **Kubernetes** 高階界域中，請使用 `limits` 配置代替 CLI 參數。
 
 ---
 
-## 5. 其他注意事項
+## 相關主題
 
-- 若未限制資源，容器預設可使用主機的所有 CPU 和記憶體。
-- `--memory-swap` 需大於 `--memory`，否則可能導致容器無法啟動。
-- 以上指令適用於 Docker CLI，若在 Kubernetes 中運行，請改用 `limits` 設定。
+> 💡 **延伸閱讀**：
+> - 如何設置 JVM 的內部能量？參考 [[Grimoires/java-container-jvm-settings|JVM 強化：Java Container 高效設置法]]
+> - 建立一致的開發結界？參考 [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
+> - 使用 Docker 召喚 MCP 工具？參考 [[Grimoires/docker-mcp-toolkit|容器召喚術：Docker MCP Toolkit]]
 

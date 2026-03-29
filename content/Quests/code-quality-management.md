@@ -1,6 +1,6 @@
 ---
-title: "🔍 自我程式碼品質管理系統"
-description: "建立一套基於 Docker、SonarQube 與 SonarLint 的程式碼品質監控系統，持續優化開發水準。"
+title: "🔍 冒險者自我守護：SonarQube 品質監控系統"
+description: "建立一套基於 Docker 與 SonarQube 的審判天平，持續監控程式碼的純淨度，消除潛在的 Bug 詛咒。"
 permalink: "/code-quality-management"
 class: "Oracle"
 rarity: "Epic"
@@ -9,75 +9,59 @@ tags:
   - Quests
 ---
 
-# 🔍 自我程式碼品質管理系統
-鑑於我的開發程式碼品質雖然有一定的水準，但是我還是想要更加精進。
-所以我打算建立一個品質管理系統
-使用docker上建立一個sonarqube容器當作單機伺服器 提示我的IDE是否符合哪些規則。
-這樣就能進一步提升，我的程式碼品質。
+# 🔍 冒險者自我守護：SonarQube 品質監控系統
 
-一、用 Docker 安裝 SonarQube 
+> [!BOOK] 任務簡報
+> 雖然我的法力（編碼能力）已具備一定水平，但在追求技術巔峰的道路上，必須建立一套 **「自我審判系統」**。透過這場試煉，我能即時發現咒語中的裂紋（Bug）與不潔（Code Smell），並在部署前完成淨化。
 
-1. **啟動** **SonarQube** **容器**
-```bash
-docker run -d --name sonarqube \
-  -p 9000:9000 \
-  -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true \
-  sonarqube:community
-```
-2. **開啟瀏覽器**，進入 [http://localhost:9000 ↗](http://localhost:9000)
-3. **預設帳號密碼**：‎`admin` / ‎`admin`（首次登入會要求你改密碼）
+---
 
-二、建立專案與產生 Token 
+## ⚡ 壹、召喚 SonarQube 審判塔
 
-4. 登入 SonarQube 後，點選「Create Project」
-5. 輸入專案名稱與 key
-6. 選擇「Manually」建立 token，複製這個 token（之後 SonarLint 會用到）
+1. **容器啟動術**
+   ```bash
+   docker run -d --name sonarqube-altar \
+     -p 9000:9000 \
+     -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true \
+     sonarqube:community
+   ```
+2. **開啟視界門戶**：前往 [http://localhost:9000](http://localhost:9000)
+3. **初次契約**：預設帳號密碼為 `admin` / `admin`。
 
-三、安裝 SonarLint 
+---
 
-**IntelliJ IDEA** 
+## 💎 貳、建立專案與產生靈力 Token
 
-1. 開啟 IntelliJ IDEA
-2. 點選 ‎`Preferences` → ‎`Plugins`
-3. 搜尋「SonarLint」並安裝
-4. 重新啟動 IDE
+在審判塔介面中開啟新專案，並生成專屬的 **Token**。這將是導引 IDE（工坊）與審判塔連結的密鑰。
 
-**VS Code** 
+---
 
-1. 開啟 VS Code
-2. 點選左側 Extensions（擴充套件）
-3. 搜尋「SonarLint」並安裝
+## 🛡️ 參、安裝 SonarLint 近衛守護
 
-四、設定 SonarLint 連接本地 SonarQube 
+在你的開發工坊（IDE）中安裝 **SonarLint**，這是你的隱形守護者，它會在每一行代碼寫下時即時給予提示。
 
-**IntelliJ IDEA** 
+---
 
-1. 點選 ‎`Preferences` → ‎`Tools` → ‎`SonarLint`
-2. 選擇「+」新增連線
-3. 選擇「SonarQube」
-4. Server URL 輸入 ‎`http://localhost:9000`
-5. 輸入剛剛產生的 token
-6. 連線成功後，選擇要同步的專案
+## 🔗 肆、建立連線：將工坊鏈結至審判塔
 
-**VS Code** 
+1. 在工坊的工具設定中，將 Server URL 指向 `http://localhost:9000`。
+2. 注入剛剛生成的 Token。
+3. 選擇要同步的專案規則。
 
-1. 按下 ‎`Cmd + Shift + P`，輸入 ‎`SonarLint: Bind to a SonarQube project`
-2. 輸入 ‎`http://localhost:9000` 作為伺服器位址
-3. 輸入 token
-4. 選擇要綁定的專案
+---
 
-五、開始使用  
+## 🔮 伍、實行自動化監控
 
-- 只要你在專案中寫程式，SonarLint 就會根據 SonarQube 上的規則即時提示問題。
-- 你可以在 SonarQube 網頁介面調整規則，SonarLint 會自動同步。
+*   **即時告警**：編寫代碼時，SonarLint 會根據審判塔的規則即時標示隱患。
+*   **規則同步**：在網頁介面修正規則，所有守護者都會自動同步。
 
+> [!TIP] **進階召喚：Docker MCP 整合**
+> 在 [[Grimoires/docker-mcp-toolkit|Docker MCP 召喚術法]] 中安裝 SonarQube MCP server，讓你的 AI 使魔（如 Antigravity）也能直接讀取審判報告，協助修復。
 
-並在docker MCP tookit安裝SonarQube MCP server協助管理SonarQube
-```txt
-Configure the connection to SonarQube
-sonarqube.url = http://localhost:9000
-URL of the SonarQube instance, to provide only for SonarQube Server or Community Build
-sonarqube.org = 不是企業版不需填入企業名稱
+---
 
-```
+## 相關主題
+
+> 💡 **延伸閱讀**：
+> - 了解基礎容器技術？參考 [[Grimoires/docker-resource-limits|🐳 容器禁錮：資源限制方案]]
 

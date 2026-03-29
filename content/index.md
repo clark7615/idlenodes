@@ -28,34 +28,34 @@ tags:
 
 > [!ABSTRACT]- 📜 冒險任務 (Combat Records)
 > *記載著在專案戰場上的征戰歷程、系統架構與實戰成果。*
-> - [[Quests/obsidian-image-hosting-gcp|雲端圖床召喚術 (GCP & Cloud Run)]]
-> - [[Quests/code-quality-management|法師自我守護：程式代碼品質管理]]
-> - [[Quests/internal-learning-system|公會知識傳承結界：企業內訓系統部署]]
+> - [[Quests/obsidian-image-hosting-gcp|☁️ 雲端圖床召喚術：GCP & Cloud Run]]
+> - [[Quests/code-quality-management|🔍 冒險者自我守護：SonarQube 品質監控系統]]
+> - [[Quests/internal-learning-system|🏗️ 公會知識傳承結界：企業內訓系統部署]]
 
 > [!BOOK]- 📖 奧術法典 (Arcane Spellbook)
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
 > - [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
 > - [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
-> - [[Grimoires/docker-mcp-toolkit|Docker MCP 召喚術法]]
-> - [[Grimoires/scrum-agile-framework|Scrum 敏捷戰術：團隊協作流]]
-> - [[Grimoires/backend-csd-architecture|奧術核心：後端 CSD 架構]]
-> - [[Grimoires/efficient-meeting-methodology|高效會議：精神鏈接法]]
-> - [[Grimoires/leadership-time-management|時間控制：高階領導管理]]
-> - [[Grimoires/cross-department-project-obstacles|外交談判：跨部門障礙消除]]
-> - [[Grimoires/managing-post-2000s-employees|世代契約：新人類領導學]]
-> - [[Grimoires/effective-conversations|語言具現：將對話轉化為現實]]
-> - [[Grimoires/work-review-methodology|戰鬥復盤：經驗值獲取指南]]
-> - [[Grimoires/eight-types-of-employees|眼界大開：職場生物多樣性]]
-> - [[Grimoires/strategic-anger-communication|情緒魔法：高層次的狂暴術]]
-> - [[Grimoires/art-principles|ART 符文：目標設定準則]]
-> - [[Grimoires/smart-principles|SMART 符文：精準任務目標]]
-> - [[Grimoires/swagger-multi-site-ui|元素匯聚：Swagger 多站整合 UI]]
-> - [[Grimoires/ui-design-basics|幻術基礎：UI 設計入門]]
-> - [[Grimoires/git-configuration|版本控制咒語：Git 配置秘笈]]
-> - [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
-> - [[Grimoires/java-container-jvm-settings|JVM 強化：容器化高效配置]]
-> - [[Grimoires/docker-resource-limits|容器禁錮：資源限制方案]]
-> - [[Grimoires/newman-cicd-testing|自動戰鬥：Newman 測試召喚]]
+> - [[Grimoires/docker-mcp-toolkit|🐳 Docker MCP 召喚術法]]
+> - [[Grimoires/scrum-agile-framework|🛡️ Scrum 敏捷戰法：團隊協作的古老契約]]
+> - [[Grimoires/backend-csd-architecture|📜 奧術核心：後端 CSD 架構法典]]
+> - [[Grimoires/efficient-meeting-methodology|🔮 高效會議術：精神鏈接與共鳴]]
+> - [[Grimoires/leadership-time-management|⏳ 領袖時間管理：四象限資源分配術]]
+> - [[Grimoires/cross-department-project-obstacles|🏰 跨部門推進項目：破除結界障礙]]
+> - [[Grimoires/managing-post-2000s-employees|🏔️ 管理新世代隨從：Z 世代的魔法契約]]
+> - [[Grimoires/effective-conversations|🌱 GROW 實戰：對話轉化為成果的咒語]]
+> - [[Grimoires/work-review-methodology|🛡️ 戰鬥復盤：記憶萃取與經驗值獲得]]
+> - [[Grimoires/eight-types-of-employees|⚓ 職業錨：探索僕從的八種核心天賦]]
+> - [[Grimoires/strategic-anger-communication|⚖️ 憤怒的外交：戰術性情緒運用術式]]
+> - [[Grimoires/art-principles|🎨 ART 藝術：任務規劃的不可能三角]]
+> - [[Grimoires/smart-principles|🎯 SMART 符文：精準目標的五重定義]]
+> - [[Grimoires/swagger-multi-site-ui|📜 Swagger 多位面傳輸：跨站點 UI 整合法典]]
+> - [[Grimoires/ui-design-basics|🖌️ 視覺工坊：UI 設計基礎法則與美學]]
+> - [[Grimoires/git-configuration|📜 版本控制咒語：Git 配置秘笈]]
+> - [[Grimoires/intellij-devcontainer-guide|🏗️ 魔法工坊配置：DevContainer 實戰教學]]
+> - [[Grimoires/java-container-jvm-settings|☕ JVM 強化：容器化位面高效配置]]
+> - [[Grimoires/docker-resource-limits|🐳 容器禁錮：資源限制方案]]
+> - [[Grimoires/newman-cicd-testing|🧪 自動化試煉：Newman & CI/CD 測試祭壇]]
 
 > [!SAGE]- 🏰 賢者塔 (Wisdom Archives)
 > *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
@@ -68,7 +68,7 @@ tags:
 > *工欲善其事，必先利其器。此處存放著先知的核心裝備配置。*
 > - [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定]]
 > - [[Forge/vscode-setup-guide|輕量化武裝：VS Code 設定指南]]
-> - [[leather-wallet-design|奧術皮藝：長夾打版聖典]]
+> - [[leather-wallet-design|⚒️ 奧術皮藝：長夾打版聖典]]
 
 ---
 > [!TIP]

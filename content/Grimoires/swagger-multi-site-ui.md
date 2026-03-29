@@ -1,6 +1,6 @@
 ---
-title: "📖 使用 Spring Cloud Gateway 整合多個微服務的 Swagger UI"
-description: "在微服務架構中，每個微服務通常都有自己的 Swagger API 文件，用於描述其提供的 API 接口。然而，當微服務數量眾多時，開發人員需要逐一查看每個微服務的 Swagger 文件，才能了解整個系統的 API 接口，這非常不方便。"
+title: "📜 Swagger 多位面傳輸：跨站點 UI 整合法典"
+description: "運用 Spring Cloud Gateway 打造統一的奧術門戶，將散布於各個微服務位面的 API 文件聚合為一，實現全知視界。"
 permalink: "/swagger-multi-site-ui"
 class: "Oracle"
 rarity: "Rare"
@@ -9,27 +9,25 @@ tags:
   - Grimoires
 ---
 
-# 📖 使用 Spring Cloud Gateway 整合多個微服務的 Swagger UI
+# 📜 Swagger 多位面傳輸：跨站點 UI 整合法典
 
-## 1. 介紹
+> [!BOOK] 秘卷記載
+> 在龐大的微服務帝國中，每一座孤島（服務）都有其專屬的 API 記載。然而，領袖需要的是一個 **「全知視界」**。透過構築 **Spring Cloud Gateway 門戶**，我們能將所有散落的文獻匯聚於一處。
 
-在微服務架構中，每個微服務通常都有自己的 Swagger API 文件，用於描述其提供的 API 接口。然而，當微服務數量眾多時，開發人員需要逐一查看每個微服務的 Swagger 文件，才能了解整個系統的 API 接口，這非常不方便。
+---
 
-為了解决這個問題，我們可以利用 Spring Cloud Gateway 將多個微服務的 Swagger API 文件整合到一個統一的 Swagger UI 中，方便開發人員查詢和使用。
+## 🏛️ 奧術架構設計
 
-## 2. 架構設計
+*   **微服務位面**：各自維護 API 文件（例如 `/v2/api-docs`）。
+*   **奧術門戶 (Spring Cloud Gateway)**：負責解析傳輸協議，將請求路由至正確位面，並聚合所有 API 指標。
+*   **全知 UI (Swagger UI)**：提供單一視窗，呈現帝國整體的 API 布局。
 
-本教學的架構如下：
+---
 
-*   **微服務**：每個微服務都提供自己的 Swagger API 文件，例如 `/v2/api-docs`。
-*   **Spring Cloud Gateway**：作為 API 閘道，負責將外部請求路由到後端的微服務，並將多個微服務的 Swagger API 文件聚合成一個。
-*   **Swagger UI**：提供一個 Web 界面，用於顯示整合後的 Swagger API 文件。
+## 🔮 實作術式
 
-## 3. 實作步驟
-
-### 3.1. 引入相關依賴
-
-首先，在 Spring Cloud Gateway 項目中引入以下依賴：
+### 1. 喚醒依賴
+在門戶項目中，引入必要的奧術組件：
 
 ```xml
 <dependency>
@@ -39,76 +37,51 @@ tags:
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
-    <version>1.6.14</version>
 </dependency>
 ```
 
-### 3.2. 配置 Spring Cloud Gateway
+---
 
-除了在 `application.yml` 或 `application.properties` 文件中靜態配置路由規則，您也可以從資料庫動態讀取服務的 IP 位址和 Port，並配置 Gateway 的路由。
+### 2. 構築動態通道 (Dynamic Routing)
+除了靜態配置，我們能從「記錄石」（資料庫）中讀取位面座標，動態開啟門戶通道。
 
-**範例**：
+> [!SAGE] 動態引導術：Java 實現
+> ```java
+> @Component
+> public class DynamicRouteLocator {
+>     // 從資料庫讀取位面清單，動態構建 RouteLocator
+>     // 運用 rewritePath 術式移除位面前綴，直達 API 核心
+> }
+> ```
 
-假設您有一個名為 `services` 的資料表，其中包含 `service_name`、`ip_address` 和 `port` 等欄位。您可以編寫一個 Spring Boot Component，在應用程式啟動時從資料庫讀取這些資訊，並動態地創建 RouteLocator。
+---
 
-```java
-@Component
-public class DynamicRouteLocator {
-
-    @Autowired
-    private RouteLocatorBuilder routeLocatorBuilder;
-
-    @Autowired
-    private ServiceRepository serviceRepository; // 假設您使用 JPA
-
-    @PostConstruct
-    public RouteLocator routeLocator() {
-        RouteLocatorBuilder.Builder routesBuilder = routeLocatorBuilder.routes();
-
-        List<Service> services = serviceRepository.findAll();
-
-        for (Service service : services) {
-            String serviceName = service.getServiceName();
-            String uri = "http://" + service.getIpAddress() + ":" + service.getPort();
-            String path = "/" + serviceName + "/v2/api-docs"; // 或 /v3/api-docs
-
-            routesBuilder.route(serviceName + "-swagger",
-                    r -> r.path(path)
-                            .filters(f -> f.rewritePath("/" + serviceName + "/(?<segment>.*)", "/${segment}"))
-                            .uri(uri));
-        }
-
-        return routesBuilder.build();
-    }
-}
-```
-
-**說明**：
-
-*   `ServiceRepository` 是一個 JPA Repository，用於從資料庫讀取服務資訊。
-*   `routeLocator()` 方法在應用程式啟動時執行，從資料庫讀取所有服務的資訊，並動態地創建 Route。
-*   `rewritePath()` Filter 用於移除服務名稱的前綴。
-*   請根據您的實際資料庫結構和 API 文件路徑進行調整。
-
-**application.yml** (簡化，僅包含必要的配置)
+### 3. 配置全知視界 (Swagger UI Config)
+讓 UI 能夠感應到門戶所匯聚的所有位面：
 
 ```yaml
-spring:
-  cloud:
-    gateway:
-      routes:
-        # 此處可以保留一些預設路由，或者留空
+springdoc:
+  swagger-ui:
+    urls:
+      - name: 位面一 (Service1)
+        url: /service1/v2/api-docs
+      - name: 位面二 (Service2)
+        url: /service2/v2/api-docs
 ```
 
-**請注意**：
+---
 
-*   這裡的 `/v2/api-docs` 僅為範例。您的微服務可能使用不同版本的 Swagger，API 文件路徑可能會是 `/v3/api-docs` 或其他路徑。請根據實際情況進行調整。
-*   您需要根據您的資料庫類型和 ORM 框架配置 `ServiceRepository`。
-*   您可能需要調整程式碼以處理資料庫連接錯誤或其他異常。
+> [!CAUTION] 警告：位面相容性
+> 確保不同位面的 Swagger 版本一致，否則傳輸協議可能發生衝突。
 
-### 3.3. 配置 Swagger UI
+---
 
-配置 Swagger UI，使其能夠訪問 Spring Cloud Gateway 提供的整合後的 Swagger API 文件。
+## 相關主題
+
+> 💡 **延伸閱讀**：
+> - 構建奧術核心結構？參考 [[Grimoires/backend-csd-architecture|奧術核心：後端 CSD 架構法典]]
+> - 通過自動化試煉？參考 [[Grimoires/newman-cicd-testing|自動化試煉：Newman & CI/CD 測試祭壇]]
+件。
 
 ```yaml
 springdoc:

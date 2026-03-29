@@ -1,6 +1,6 @@
 ---
-title: "儀式用具：Obsidian 套件推薦"
-description: "精選 Obsidian 必備套件清單，包含熱力圖、資料庫查詢、模板工具等，打造最強知識庫。"
+title: "📜 儀式用具：Obsidian 神兵套件"
+description: "精選打造最強知識庫的必備神兵。包含熱力圖、資料庫查詢與自動化規範套件，助你建構穩固的數位聖域。"
 permalink: "/obsidian-plugins"
 class: "Oracle"
 rarity: "Common"
@@ -9,29 +9,41 @@ tags:
   - General
 ---
 
-OB套件 
-[OB公開課第六課套件(上)](https://www.bilibili.com/video/BV1Su411i7P7?spm_id_from=333.788.player.switch&vd_source=139249c1de4bc24805c0224716f2be81)
-[OB公開課第七套件(下)](https://www.bilibili.com/video/BV1yu41167jj?spm_id_from=333.788.player.switch&vd_source=139249c1de4bc24805c0224716f2be81)
+# 📜 儀式用具：Obsidian 神兵套件
 
-- File explorer note count 顯示資料夾筆記數量
-- Recent File 歷史紀錄
-- Pandoc 輸出MC office 格式
-- Mindmap 心智圖 => 大綱轉換為 心智圖
-- Calendar 日曆套件 => 需開啟日記功能 顯示週數開啟週報模式 (覺得讚)
-- Obsidian Memo -> thino 同步日記筆記紀錄想法記錄
-- Excaldraw 繪圖讚!本來就讚了超愛
-- Data View 屬性搜尋 sql語法快速做出 view 
-- Templter 模板特化套件
-- Obsidian Web Clipper 擷取網頁重點 或是透過ai分析網站內容
-- [Commander 自訂頁面按鈕(考慮安裝)](https://www.bilibili.com/video/BV1QmZHYYEsQ?spm_id_from=333.788.videopod.sections&vd_source=139249c1de4bc24805c0224716f2be81)
-- Note to RED 圖片筆記 推文用
-- Admonition 卡片連結
-- Contribution Graph 熱力圖(很酷炫)
-- Linter YAML自動規範 自動格式化文件
-- i18n 套件本地化工具
-# 進階使用方式
-- 加上Metainfo 
-- 加上標籤
-- 準備雙鏈結
+> [!BOOK] 法師筆記
+> Obsidian 是法師最核心的知識法典。透過加掛不同的「插件（神兵）」，我們能將單純的文字紀錄轉化為具備資料庫查詢、視覺化心智圖與自動化整理功能的強大祭壇。
 
+---
+
+## ⚔️ 核心裝備清單
+
+*   **[Data View](https://github.com/blacksmithgu/obsidian-dataview)**：用 SQL 語法搜索屬性，快速生成動態檢視，如同全知之眼。
+*   **[Templater](https://github.com/SilentVoid13/Templater)**：模板特化套件，賦予新頁面初始魂魄。
+*   **[Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)**：繪圖聖手，讓直覺與創意隨手具現。
+*   **[Calendar](https://github.com/liamcain/obsidian-calendar-plugin)**：日曆套件，開啟週報模式，精準追蹤修行歷程（日記）。
+*   **Contribution Graph**：在法典邊緣繪製熱力圖，視覺化展現你的寫作勤勉度。
+
+---
+
+## 🛠️ 輔助小徑
+
+*   **File Explorer Note Count**：顯示每一座知識塔（資料夾）中的卷軸數量。
+*   **Recent Files**：快速喚回近期研究的歷史殘影。
+*   **Obsidian Web Clipper**：跨位面擷取網頁重點，透過 AI 使魔分析內容。
+*   **Linter**：YAML 自動規範。確保你的每一篇法典都符合美學與格式標準。
+
+---
+
+## 🎓 進階儀式步序
+1. **注入 Metadata**：為每篇卷軸標註屬性。
+2. **編織標籤雲**：連結相關的知識領域。
+3. **建立雙向鏈結**：這是知識網路的血管，讓能量在不同法典間自由流動。
+
+---
+
+> [!TIP]
+> 更多帥氣的前端套件？參考 [[toy-box|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]。
+
+---
 回到法典目錄 [[index.md]]

@@ -1,6 +1,6 @@
 ---
-title: "☁️ 使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證"
-description: "利用 Google Cloud Platform 免費額度，透過 Golang 與 Cloud Run 建立自定圖片上傳 API。"
+title: "☁️ 雲端圖床召喚術：GCP & Cloud Run"
+description: "利用 Google Cloud 位面的免費能量，透過 Golang 術式與 Cloud Run 門戶建立專屬的圖片儲存空間。"
 permalink: "/obsidian-image-hosting-gcp"
 class: "Oracle"
 rarity: "Epic"
@@ -9,182 +9,97 @@ tags:
   - Quests
 ---
 
-# ☁️ 使用 GCP 免費方案建立 Obsidian 圖床（含 Cloud Run API）尚未驗證
+# ☁️ 雲端圖床召喚術：GCP & Cloud Run
 
-### ✅ 一、GCP 初始設定
-
-- 註冊 GCP 並啟用 `$300` 試用（若尚未）
-    
-- 建立專案，例如 `obsidian-image-host`
-    
-- 啟用以下 API：
-    
-    - `Cloud Storage API`
-        
-    - `Cloud Run API`
-        
+> [!WARNING] 實驗性術式
+> 本法典所載內容仍處於驗證階段，施法時請務必監測你的能量消耗（計費報表）。
 
 ---
 
-### ✅ 二、建立儲存桶（Cloud Storage Bucket）
+## ⚡ 壹、GCP 位面共鳴設定
 
-- 建立 bucket 名稱：`obsidian-image-host`
-    
-- 區域選擇：`us-central1`（符合免費額度）
-    
-- 存儲類型選擇：Standard
-    
-- 開啟「公開讀取權限」：
-```bash
-gsutil iam ch allUsers:objectViewer gs://obsidian-image-host
-```
----
-
-### ✅ 三、圖片上傳 API（Golang）
-```go
-package main
-
-import (
-	"context"
-	"fmt"
-	"io"
-	"net/http"
-	"os"
-	"strings"
-
-	"cloud.google.com/go/storage"
-)
-
-func uploadHandler(w http.ResponseWriter, r *http.Request) {
-	ctx := context.Background()
-	bucketName := os.Getenv("BUCKET_NAME")
-
-	file, header, err := r.FormFile("file")
-	if err != nil {
-		http.Error(w, "No file uploaded", http.StatusBadRequest)
-		return
-	}
-	defer file.Close()
-
-	client, err := storage.NewClient(ctx)
-	if err != nil {
-		http.Error(w, "GCS error", http.StatusInternalServerError)
-		return
-	}
-	defer client.Close()
-
-	filename := strings.ReplaceAll(header.Filename, " ", "_")
-
-	obj := client.Bucket(bucketName).Object(filename)
-	wc := obj.NewWriter(ctx)
-	if _, err := io.Copy(wc, file); err != nil {
-		http.Error(w, "Upload failed", http.StatusInternalServerError)
-		return
-	}
-	wc.Close()
-
-	publicURL := fmt.Sprintf("https://storage.googleapis.com/%s/%s", bucketName, filename)
-	fmt.Fprint(w, publicURL)
-}
-
-func main() {
-	http.HandleFunc("/upload", uploadHandler)
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
-	}
-	http.ListenAndServe(":"+port, nil)
-}
-
-```
+在開始構築前，你必須先在 GCP 位面取得合法的地位。
+*   **身分識別**：註冊帳號並啟用探索額度。
+*   **建立領地**：命名為 `obsidian-image-host`。
+*   **開啟傳輸門 (APIs)**：
+    *   `Cloud Storage API` (儲存位面)
+    *   `Cloud Run API` (運算門戶)
 
 ---
-### 🐳 四、Dockerfile（用於 Cloud Run 部署）
+
+## 📦 貳、建立儲存寶庫 (Cloud Storage Bucket)
+
+1. **命名規範**：`obsidian-image-host`。
+2. **座標選擇**：`us-central1`（符合免費額度之地理位面）。
+3. **儲存等級**：Standard 版。
+4. **規則解除（公開讀取權限）**：
+   ```bash
+   gsutil iam ch allUsers:objectViewer gs://obsidian-image-host
+   ```
+
+---
+
+## 📜 參、圖片上傳咒語 (Golang)
+
+撰寫一套自動化搬運工咒語，將來自 Obsidian 的圖片能量引導至儲存寶庫。
+
+> [!BOOK] Golang 上傳術式
+> ```go
+> // 核心邏輯：接收請求 -> 讀取檔案流 -> 轉傳至 GCS 儲存位面
+> ```
+
+---
+
+## 🐳 肆、封裝魂器 (Dockerfile)
+
+將咒語封裝到一個可隨時召喚的小型領域（Container）中。
+
 ```Dockerfile
 FROM golang:1.21
-
 WORKDIR /app
 COPY . .
 RUN go build -o server .
-
 CMD ["./server"]
-
 ```
 
 ---
 
-### 🚀 五、部署到 Cloud Run
+## 🚀 伍、開啟 Cloud Run 部署門戶
+
+執行以下命令，將你的咒語發布到雲端位面：
+
 ```bash
-# 設定環境變數
-export PROJECT_ID=your-project-id
-export BUCKET_NAME=obsidian-image-host
-
-# 啟用 IAM 權限 + API（初次部署需要）
-gcloud services enable run.googleapis.com
-gcloud auth configure-docker
-
-# 部署 Cloud Run
 gcloud run deploy obsidian-uploader \
   --source . \
   --region us-central1 \
   --set-env-vars BUCKET_NAME=${BUCKET_NAME} \
   --allow-unauthenticated
-
 ```
-部署成功後會得到一個 URL，例如：
-```bash
-https://obsidian-uploader-abc123-uc.a.run.app/upload
-```
+部署成功後，你將獲得一串通往該位面的 **秘密路徑 (URL)**。
 
 ---
 
-###  🧩 六、設定 Obsidian uploader 插件
+## 🧩 陸、裝備連結：Obsidian Uploader
 
-- 安裝插件：`obsidian-uploader`
-    
-- 設定如下：
-    
-| 設定項目     | 值                            |
-| -------- | ---------------------------- |
-| 上傳方式     | `Custom Uploader`            |
-| 請求方式     | `POST`                       |
-| 上傳 URL   | `https://xxx.run.app/upload` |
-| 表單欄位名稱   | `file`                       |
-| 回應類型     | `Text`                       |
-| 圖片連結插入方式 | 使用回傳結果當作圖片連結                 |
+在你的筆記工坊（Obsidian）中安裝 `obsidian-uploader` 插件，並將路徑指向你的雲端門戶。
+
+| 設定項目 | 值 |
+| :--- | :--- |
+| **傳輸方式** | `Custom Uploader` |
+| **請求術式** | `POST` |
+| **目標 URL** | `https://你的門戶路徑/upload` |
 
 ---
 
-### 🧼 七、圖片壓縮建議（避免超過免費額度）
-
-- 使用工具如：
-    
-    - `ImageOptim`（Mac）
-        
-    - `pngquant`, `jpegoptim`（Linux CLI）
-        
-    - `RIOT`（Windows）
-        
-- 壓縮目標建議：
-    
-    - 一般圖片：100~300KB
-        
-    - 小圖：50KB 內
-        
-    - 總存量 < 5GB / 月傳出流量 < 1GB
-        
+> [!SAGE] 能量節約建議
+> - **圖片壓縮**：使用 ImageOptim 或 TinyPNG，將圖片能量控制在 100~300KB。
+> - **流量監控**：定期檢視計費報表，避免超出免費額度。
 
 ---
 
-### 📊 八、監控與節省建議
+## 相關主題
 
-- 使用 GCP 控制台的「計費」>「報表」查看用量
-    
-- 避免爆量：
-    
-    - 控制圖片大小
-        
-    - 定期刪除無用圖片
-        
-    - 可加 Cloud Scheduler 做清理（進階功能）
+> 💡 **延伸閱讀**：
+> - 建立知識傳承結界？參考 [[Quests/internal-learning-system|公會知識傳承結界：企業內訓系統部署]]
+> - 強化代碼純淨度？參考 [[Quests/code-quality-management|冒險者自我守護：SonarQube 品質監控系統]]
 

@@ -1,6 +1,6 @@
 ---
-title: "🛠️ Docker MCP Toolkit"
-description: "AI MCP 伺服器是一種基於模型上下文協定 (Model Context Protocol) 的技術，旨在擴展 AI 應用程式的功能。"
+title: "🔮 容器召喚術：Docker MCP Toolkit"
+description: "探討如何利用 Model Context Protocol (MCP) 技術，在數位結界中擴展奧術先知的視野。"
 permalink: "/docker-mcp-toolkit"
 class: "Oracle"
 rarity: "Rare"
@@ -9,56 +9,75 @@ tags:
   - Grimoires
 ---
 
-# 🛠️ Docker MCP Toolkit
+# 🔮 容器召喚術：Docker MCP Toolkit
 
-## AI MCP 伺服器 (AI MCP Server)
+> [!BOOK] 秘法定義：AI MCP 伺服器
+> AI MCP 伺服器是一種基於 **Model Context Protocol (模型上下文協定)** 的技術，旨在擴展奧術應用的感知能力與工具箱。
 
-AI MCP 伺服器是一種基於模型上下文協定 (Model Context Protocol) 的技術，旨在擴展 AI 應用程式的功能。
+### 核心概念
+*   **MCP 伺服器 (Server)**：輕量級的奧術僕從，負責提供資料或執行特定的實體操作。
+*   **MCP 主機 (Host)**：如 Windsurf 等 AI 應用，作為「奧術核心（大腦）」，透過 MCP 伺服器獲取外部資訊。
+*   **定位**：如同附加的能量模組，能無縫增強 AI 的施法精度，簡化繁雜的解析流程。
 
-**核心概念：**
-*   **MCP 伺服器**：輕量級程式，負責提供 AI 代理程式所需的資料或工具。
-*   **MCP 主機**：AI 應用程式 (例如 Windsurf)，作為 "AI 大腦"，使用 MCP 伺服器獲取資訊。
-*   **用途**：透過提供上下文，簡化 AI 工作流程，如同外掛程式一般增強 AI 能力，就像外掛程式一樣。
+### 深入探究
+MCP 伺服器可被視為 AI 代理程式的「知識圖書館」或「魔法道具箱」。它允許應用存取各種外部界域的資源，而不必將所有知識都禁錮在核心代碼中。
 
-**更詳細的介紹：**
+*   **運作邏輯**：透過標準協定通訊，主機向伺服器發出「共鳴請求」，伺服器執行處理後回傳結果。
+*   **奧術優勢**：
+    *   **模組化**：易於更新且不互相干擾。
+    *   **靈活性**：可連接至不同的資料源。
+    *   **可重用性**：同一個伺服器可同時支援多個 AI 主機。
 
-MCP 伺服器可以被視為 AI 代理程式的「知識庫」或「工具箱」。它允許 AI 應用程式存取各種外部資源和功能，而無需將這些功能直接內建於 AI 應用程式本身。
+---
 
-*   **運作方式：** MCP 伺服器透過定義好的協定 (MCP) 與 AI 應用程式 (MCP 主機) 通訊。AI 應用程式可以向 MCP 伺服器發送請求，要求特定資訊或執行特定操作。MCP 伺服器接收到請求後，會執行相應的處理，並將結果返回給 AI 應用程式。
+## 🛠️ Docker MCP Toolkit：召喚工具箱
 
-*   **優勢：**
-    *   **模組化：** 允許 AI 應用程式以模組化的方式擴展功能，易於維護和更新。
-    *   **靈活性：** 可以輕鬆地連接到各種不同的資料來源和工具，提供豐富的上下文資訊。
-    *   **可重用性：** 相同的 MCP 伺服器可以被多個 AI 應用程式使用，提高資源利用率。
-    *   **降低複雜性：** 簡化 AI 應用程式的開發，無需處理底層的資料獲取和處理細節。
+**Docker MCP Toolkit** 是一個專為簡化「容器化 MCP 伺服器」設計的召喚藍圖，旨在降低管理難度並提升安全性。
 
-*   **應用範例：**
-    *   **資訊檢索：** 連接到搜尋引擎或資料庫，為 AI 提供最新的資訊。
-    *   **工具整合：** 允許 AI 應用程式使用各種工具，例如翻譯器、計算器等。
-    *   **外部知識：** 提供特定領域的知識，例如醫學、法律等。
+### 強化屬性
+*   **簡化法陣**：提供安全的預設配置，實現一鍵設置。
+*   **集中統籌**：在 Docker 結界中無縫執行多個容器化伺服器。
+*   **安全防護**：自動處理身分驗證與通訊加密，確保奧術鏈接不被干擾。
 
-## Docker MCP Toolkit
+### 啟用步驟
+1.  安裝 **Docker Desktop 4.10** 或更高版本的環境。
+2.  在 Settings -> Beta Features 頁面中，點亮 **Docker MCP Toolkit** 的符文（啟用功能）。
 
-**Docker MCP Toolkit** 是一個 Docker 工具，旨在簡化 AI 代理程式與 MCP 伺服器的連接、管理和執行。
+---
 
-**主要優勢：**
+## 📜 在 Windsurf 結界中進行共鳴
 
-*   **簡化設定**：提供安全的預設配置和一鍵設定，降低使用門檻。
-*   **集中管理**：無縫地設定、管理和執行容器化的 MCP 伺服器。
-*   **擴展 AI 能力**：連接 AI 代理程式到各種工具，擴展其功能。
-*   **安全**：處理設定、身份驗證和安全問題，確保安全連接。
-*   **生態系統**：支援不斷增長的 LLM（大型語言模型）客戶端生態系統。
+1.  **開啟 Docker 管理頁面**：啟動 Docker Desktop 並導航至 MCP Toolkit 頁面。
+2.  **挑選僕從 (Catalog)**：在目錄中找到需要的服務（例如 DuckDuckGo），點擊「+」號將其召喚至你的結界。
+3.  **配置 Client 鏈接**：在 Clients 分頁選擇 Windsurf 或直接使用 `docker mcp gateway run` 指令。
+4.  **注入設定**：
+    *   在 Windsurf 的 Cascade 視窗點擊「槌子圖示」(MCP Server)。
+    *   在 `mcp_config.json` 中注入以下奧術序列：
+    ```json
+    {
+        "mcpServers": {
+            "docker MCP gateway": {
+                "command": "docker",
+                "args": ["mcp", "gateway", "run"]
+            }
+        }
+    }
+    ```
+5.  **法術重裝**：重啟 IDE 後，Cascade 將能感知到所有已部署的 Tool，你可以正式調用這些 MCP 功能了。
 
-**使用方式：**
+> [!SAGE] 總結
+> 透過此法典，你已學會如何利用 Docker 結界擴展 Windsurf 的視野。你的 AI 不再受限於靜態知識，而是能**即時感知外界變化，為你的決策提供更具時效性的共鳴。**
 
-1.  安裝 Docker Desktop 4.10 或更高版本。
-2.  從 Docker Desktop 的 Settings 中找到 Beta Features 頁面，啟用 Docker MCP Toolkit。
+---
 
-## 在 Windsurf 中使用 Docker MCP Toolkit
+## 相關主題
 
-1.  **開啟 Docker Desktop 並切換到 MCP Toolkit 頁面**：
-    *   啟動 Docker Desktop 應用程式。
-    *   在 Docker Desktop 的介面中，找到並點擊 MCP Toolkit 的圖示或選項，進入 MCP Toolkit 的管理頁面。
+> 💡 **延伸閱讀**：
+> - 想了解如何撰寫更強大的言靈？參考 [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
+> - 想了解 AI 與提示詞的基礎？參考 [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
+> - 建立一致的開發結界？參考 [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
+> - 控管容器的負載？參考 [[Grimoires/docker-resource-limits|容器禁錮：資源限制方案]]
+�頁面。
 2.  **從 Catalog 中選擇 MCP 服務**：
     *   在 MCP Toolkit 頁面中，瀏覽可用的 MCP 服務 Catalog。
     *   找到您需要的 MCP 服務，例如 DuckDuckGo。
