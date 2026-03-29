@@ -1,6 +1,6 @@
 ---
-title: "💻 VS Code 字體及套件設定指南 (macOS & Windows)"
-description: "這份指南旨在協助您在 macOS 和 Windows 系統上快速配置 VS Code 的字體和套件，以便在重灌系統後能快速恢復您的開發環境。"
+title: "💻 輕量化武裝：VS Code 設定指南 (macOS & Windows)"
+description: "這份鍛造配方旨在協助你在技術荒野中快速恢復你的 VS Code 開發武裝。"
 permalink: "/vscode-setup-guide"
 class: "Oracle"
 rarity: "Common"
@@ -9,115 +9,71 @@ tags:
   - Forge
 ---
 
-# 💻 VS Code 字體及套件設定指南 (macOS & Windows)
-#軟體設定 
-這份指南旨在協助您在 macOS 和 Windows 系統上快速配置 VS Code 的字體和套件，以便在重灌系統後能快速恢復您的開發環境。
-## 字體安裝
-### 1. 字體下載
-*   JetBrains Mono: [https://www.jetbrains.com/lp/mono/](https://www.jetbrains.com/lp/mono/)
-*   Hack Nerd Font: [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads) (選擇 Hack)
-*   Fira Code: [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
+# 💻 輕量化武裝：VS Code 設定指南
 
-### 2. 字體安裝
+> [!TOOL] 鍛造指南
+> 在多變的開發大陸上，一套穩定且高效的 VS Code 裝備是必不可少的。本配方將引導你收集必要的符文字體與擴充插件，並完成最終的環境鍛造。
+
+## 一、 符文收集：字體安裝
+
+### 1. 取得字體原胚
+*   **JetBrains Mono**: [傳送門](https://www.jetbrains.com/lp/mono/)
+*   **Hack Nerd Font**: [傳送門](https://www.nerdfonts.com/font-downloads) (推薦選用 Hack)
+*   **Fira Code**: [傳送門](https://github.com/tonsky/FiraCode)
+
+### 2. 打印符文 (安裝)
 
 #### macOS
-
-**手動安裝**
-1.  下載字體壓縮包後解壓縮。
-2.  雙擊每個 `.ttf` 或 `.otf` 字體文件。
-3.  點擊 "安裝字體" 按鈕。
-
-**使用 Homebrew 安裝**
-如果您使用 Homebrew，可以使用以下指令安裝字體：
-```bash
-# 首先確保已經安裝了 Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# 檢查是否已經安裝了 cask-fonts
-brew tap homebrew/cask-fonts
-# 安裝字體
-brew install --cask font-jetbrains-mono
-brew install --cask font-hack-nerd-font
-brew install --cask font-fira-code
-```
-#### Windows
-
-**手動安裝**
-
-1.  下載字體壓縮包後解壓縮。
-2.  選取所有 `.ttf` 字體文件。
-3.  右鍵點擊並選擇 "安裝"，或複製到 `C:\Windows\Fonts` 目錄。
-
-## VS Code 套件安裝
-
-1.  **Catppuccin 主題**
-
-    *   Catppuccin Frappé: 在 VS Code 擴充商店搜尋 "Catppuccin Frappé" 並安裝。
-    *   Catppuccin Latte: 在 VS Code 擴充商店搜尋 "Catppuccin Latte" 並安裝。
-2.  **Bongocat 產品圖示主題**
-
-    *   在 VS Code 擴充商店搜尋 "bongocat" 並安裝。
-
-## VS Code 設定 (settings.json)
-
-1.  **開啟 settings.json**
-
-    *   在 VS Code 中，按下 `Cmd + Shift + P` (macOS) 或 `Ctrl + Shift + P` (Windows) 開啟命令面板。
-    *   輸入 "Preferences: Open Settings (JSON)" 並選擇它。
-2.  **複製設定**
-
-    將以下設定複製到 `settings.json` 文件中：
-
-    ```json
-    {
-        "editor.fontFamily": "'JetBrains Mono', 'Hack Nerd Font', 'Fira Code'",
-        "editor.lineHeight": 20,
-        "editor.fontLigatures": true,
-        "editor.cursorBlinking": "smooth",
-        "editor.cursorSmoothCaretAnimation": "on",
-        "editor.smoothScrolling": true,
-        "editor.minimap.enabled": false,
-        "editor.renderLineHighlight": "all",
-        "editor.renderWhitespace": "boundary",
-        "window.zoomLevel": 1,
-        "window.autoDetectColorScheme": true,
-        "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
-        "workbench.preferredLightColorTheme": "Catppuccin Latte",
-        "workbench.sideBar.location": "right",
-        "workbench.iconTheme": "catppuccin-frappe",
-        "workbench.productIconTheme": "bongocat",
-        "editor.fontSize": 13,
-        "workbench.auxiliaryActivityBar.location": "default",
-    }
+*   **傳統鍛造**：雙擊 `.ttf` 或 `.otf` 文件並點選「安裝」。
+*   **奧術指令 (Homebrew)**：
+    ```bash
+    brew tap homebrew/cask-fonts
+    brew install --cask font-jetbrains-mono font-hack-nerd-font font-fira-code
     ```
 
-## 總結
+#### Windows
+*   **傳統鍛造**：選取字體右鍵點選「安裝」，或將其置入 `C:\Windows\Fonts` 聖域。
 
-1.  **字體**
+## 二、 擴充武裝：插件安裝
 
-    *   下載並安裝 JetBrains Mono, Hack Nerd Font, Fira Code 字體。
-    *   (macOS 可選) 使用 Homebrew 安裝 Nerd Font:
-        `brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font`
-2.  **VS Code 套件**
+1.  **Catppuccin 視覺幻術**
+    *   在商店搜尋「Catppuccin」並安裝。這是調和視覺靈魂的核心色彩。
+2.  **Bongocat 守護靈 (Product Icon)**
+    *   在商店搜尋「bongocat」，為你的編輯器注入活潑的靈性能量。
 
-    *   安裝 Catppuccin Frappé, Catppuccin Latte, bongocat 套件。
-3.  **VS Code 設定**
+## 三、 最終鍛造配方 (settings.json)
 
-    *   將提供的 `settings.json` 設定複製到 VS Code 的設定文件中。
+> [!IMPORTANT] 核心配方
+> 按下 `Cmd/Ctrl + Shift + P` 並輸入 `Preferences: Open Settings (JSON)`，將以下奧術序列寫入你的配置法典：
 
-## 備註
-
-*   請確保 VS Code 已經安裝。
-*   如果使用 Homebrew 安裝字體，請先安裝 Homebrew (macOS)。
-*   您可以根據個人喜好調整 `settings.json` 中的設定。
-
-希望這份指南對您有幫助！
+```json
+{
+    "editor.fontFamily": "'JetBrains Mono', 'Hack Nerd Font', 'Fira Code'",
+    "editor.lineHeight": 20,
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "boundary",
+    "window.zoomLevel": 1,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "workbench.productIconTheme": "bongocat",
+    "editor.fontSize": 13,
+    "workbench.auxiliaryActivityBar.location": "default"
+}
+```
 
 ---
 
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解 IntelliJ IDEA 的設定建議？參考 [[Forge/intellij-idea-settings|IntelliJ IDEA 設定建議]]
-> - 想了解 Git 配置？參考 [[Grimoires/git-configuration|Git 配置秘笈]]
-> - 兩種 IDE 的設定可以保持一致性，讓你在不同開發環境中都有相同的體驗。
+> - 想要更強力的裝備？參考 [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定建議]]
+> - 守護你的代碼靈魂？參考 [[Grimoires/git-configuration|版本控制咒語：Git 配置秘笈]]
 
