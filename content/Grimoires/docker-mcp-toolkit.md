@@ -39,12 +39,6 @@ MCP 伺服器可被視為 AI 代理程式的「知識圖書館」或「魔法道
 *   **集中統籌**：在 Docker 結界中無縫執行多個容器化伺服器。
 *   **安全防護**：自動處理身分驗證與通訊加密，確保奧術鏈接不被干擾。
 
-### 啟用步驟
-1.  安裝 **Docker Desktop 4.10** 或更高版本的環境。
-2.  在 Settings -> Beta Features 頁面中，點亮 **Docker MCP Toolkit** 的符文（啟用功能）。
-
----
-
 ## 📜 在 Windsurf 結界中進行共鳴
 
 1.  **開啟 Docker 管理頁面**：啟動 Docker Desktop 並導航至 MCP Toolkit 頁面。
@@ -69,45 +63,6 @@ MCP 伺服器可被視為 AI 代理程式的「知識圖書館」或「魔法道
 > 透過此法典，你已學會如何利用 Docker 結界擴展 Windsurf 的視野。你的 AI 不再受限於靜態知識，而是能**即時感知外界變化，為你的決策提供更具時效性的共鳴。**
 
 ---
-
-## 相關主題
-
-> 💡 **延伸閱讀**：
-> - 想了解如何撰寫更強大的言靈？參考 [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
-> - 想了解 AI 與提示詞的基礎？參考 [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
-> - 建立一致的開發結界？參考 [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
-> - 控管容器的負載？參考 [[Grimoires/docker-resource-limits|容器禁錮：資源限制方案]]
-�頁面。
-2.  **從 Catalog 中選擇 MCP 服務**：
-    *   在 MCP Toolkit 頁面中，瀏覽可用的 MCP 服務 Catalog。
-    *   找到您需要的 MCP 服務，例如 DuckDuckGo。
-    *   點擊該服務卡片右上角的「+」號，以新增該服務。
-3.  **選擇 Clients**：
-    *   切換到 Clients 分頁，選擇您要加入的服務。Docker Desktop 提供了許多 Clients 以供使用，例如 Claude Desktop、Continue.dev、Cursor、Gordon，以及直接使用 `docker mcp gateway run`。(這邊我們以 Windsurf 或是直接使用 `docker mpc gateway run` 的方式。)
-4.  **設定 Windsurf IDE**：
-    *   在 Cascade 視窗下找到槌子的圖示 MCP Server 後點擊。將會列出你有多少個 MCP Server 與 Cascade 串接在一起。這時我們點選後面的 Configure。
-    *   會跳出 Manage plugins 頁面。點選 view raw config 並在 mcp_config.json 輸入以下內容：
-    ```json
-    {
-        "mcpServers": {
-            "docker MCP gateway": {
-                "command": "docker",
-                "args": [
-                    "mcp",
-                    "gateway",
-                    "run"
-                ]
-            }
-        }
-    }
-    ```
-    *   關閉 IDE 重新啟動後，它就能抓到你多少個 tool 可以使用，這時你就能正常地調用這些 MCP 功能了。
-
-**結論**
-
-透過本教學，您已學會如何使用 Docker MCP Toolkit 將 Windsurf 連接到 MCP 伺服器，從而擴展 Windsurf 的 AI 功能。現在，您的 Windsurf 不僅可以執行傳統的 AI 任務，還能透過連接到搜尋網站等工具，**即時獲取最新的資訊，為您的 AI 提供更豐富、更即時的上下文，讓 AI 的回答更準確、更具時效性。**
----
-
 ## 相關主題
 
 > 💡 **延伸閱讀**：
@@ -115,6 +70,5 @@ MCP 伺服器可被視為 AI 代理程式的「知識圖書館」或「魔法道
 > - 想了解AI與提示詞的基礎概念？參考 [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]]
 > - 想了解如何設定DevContainer開發環境？參考 [[Grimoires/intellij-devcontainer-guide|IntelliJ DevContainer 設定教學手冊]]
 > - 想了解Docker容器資源管理？參考 [[Grimoires/docker-resource-limits|Docker 容器資源限制說明文件]]
-> - 想了解容器化開發環境的具體設定？MCP提供豐富的上下文給AI，而DevContainer則提供一致的開發環境，兩者配合使用效果更佳。
 
 
