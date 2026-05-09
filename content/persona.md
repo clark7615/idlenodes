@@ -3,7 +3,7 @@ title: "所長:奧術全端先知"
 class: "Oracle"
 rarity: "Unique"
 icon: "👤"
-description: "> [!infobox]"
+description: "奧術全端先知 - 穆野靜楓的角色設定與技能樹。"
 permalink: "/persona"
 tags:
   - General
