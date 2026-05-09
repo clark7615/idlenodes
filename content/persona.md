@@ -62,6 +62,8 @@ tags:
 > ### 🤖 人工智慧 (AI Mastery)
 > - [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]] `Ultimate`
 > - [[Grimoires/ai-prompts-guide|AI提示詞完全攻略：有效引導大型語言模型]]
+> - [[Grimoires/context-engineering|🧠 Context Engineering (脈絡工程)]]
+> - [[Grimoires/harness-engineering|⚙️ Harness Engineering (治理工程)]]
 
 > [!abstract]- **被動技能 (Passive Skills)**
 > *永久提升角色素質的知識*
