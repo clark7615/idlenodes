@@ -36,6 +36,8 @@ tags:
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
 > - [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
 > - [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
+> - [[Grimoires/context-engineering|🧠 Context Engineering (脈絡工程)]]
+> - [[Grimoires/harness-engineering|⚙️ Harness Engineering (治理工程)]]
 > - [[Grimoires/docker-mcp-toolkit|🐳 Docker MCP 召喚術法]]
 > - [[Grimoires/scrum-agile-framework|🛡️ Scrum 敏捷戰法：團隊協作的古老契約]]
 > - [[Grimoires/backend-csd-architecture|📜 奧術核心：後端 CSD 架構法典]]
