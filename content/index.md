@@ -58,10 +58,10 @@ tags:
 > - [[Grimoires/java-container-jvm-settings|☕ JVM 強化：容器化位面高效配置]]
 > - [[Grimoires/docker-resource-limits|🐳 容器禁錮：資源限制方案]]
 > - [[Grimoires/newman-cicd-testing|🧪 自動化試煉：Newman & CI/CD 測試祭壇]]
+> - [[Grimoires/personal-branding-management|🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊]]
 
 > [!SAGE]- 🏰 賢者塔 (Wisdom Archives)
 > *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
-> - [[SageTower/personal-branding-management|吟遊詩人傳奇：個人行銷與形象]]
 > - [[SageTower/financial-planning-practice|現代煉金術：理財規劃與實務]]
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
 

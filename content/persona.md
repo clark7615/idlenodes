@@ -96,7 +96,7 @@ tags:
 > - [[leather-wallet-design|⚒️ 奧術皮藝：長夾打版聖典]]
 > 
 > ### 📢 吟遊詩人 (Marketing)
-> - [[SageTower/personal-branding-management|個人行銷與形象管理]]
+> - [[Grimoires/personal-branding-management|🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊]]
 > 
 > ### 🧠 智慧導引 (AI Prompting)
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
