@@ -59,6 +59,7 @@ tags:
 > - [[Grimoires/docker-resource-limits|🐳 容器禁錮：資源限制方案]]
 > - [[Grimoires/newman-cicd-testing|🧪 自動化試煉：Newman & CI/CD 測試祭壇]]
 > - [[Grimoires/personal-branding-management|🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊]]
+> - [[Grimoires/workplace-alliances|⚖️ 職場站隊的底層邏輯 — Junior 的生存與選擇框架]]
 
 > [!SAGE]- 🏰 賢者塔 (Wisdom Archives)
 > *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
