@@ -6,8 +6,7 @@ class: "Forge"
 rarity: "Epic"
 icon: "👛"
 tags:
-  - Forge
-  - Crafting
+  - Artifice
 ---
 
 # ⚒️ 奧術皮藝：長夾打版聖典

@@ -6,9 +6,8 @@ class: Oracle
 rarity: Legendary
 icon: 🏰
 tags:
-  - SageTower
-  - CareerRPG
-  - PersonalBranding
+  - Artifice
+  - Career
 ---
 
 # 🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊
@@ -162,6 +161,6 @@ tags:
 ---
 
 ## 🔗 延伸攻略
-*   [[Grimoires/leadership-time-management|團長專用：時間加速魔法秘籍]]
-*   [[Grimoires/smart-principles|卷軸鑑定：如何識別真正的目標]]
-*   [[Grimoires/personal-swot-analysis|角色深度剖析：優勢與弱點的平衡]]
+*   [[Dictums/leadership-time-management|團長專用：時間加速魔法秘籍]]
+*   [[Dictums/smart-principles|卷軸鑑定：如何識別真正的目標]]
+*   [[Dictums/personal-swot-analysis|角色深度剖析：優勢與弱點的平衡]]

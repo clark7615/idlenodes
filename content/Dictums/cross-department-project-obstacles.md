@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🏰 跨部門推進項目：破除結界障礙
@@ -66,7 +66,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 建立共鳴溝通會議？參考 [[Grimoires/efficient-meeting-methodology|高效會議：精神鏈接法]]
-> - 使用符文定義目標？參考 [[Grimoires/smart-principles|SMART 符文：精準任務目標]]
-> - 在敏捷模式中推進？參考 [[Grimoires/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 建立共鳴溝通會議？參考 [[Dictums/efficient-meeting-methodology|高效會議：精神鏈接法]]
+> - 使用符文定義目標？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標]]
+> - 在敏捷模式中推進？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
 

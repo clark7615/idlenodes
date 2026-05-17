@@ -69,34 +69,34 @@ tags:
 > *永久提升角色素質的知識*
 > 
 > ### 🤝 向上管理 (Upward Management)
-> - [[Grimoires/smart-principles|🎯 SMART 符文：精準目標的五重定義]]
-> - [[Grimoires/art-principles|🎨 ART 藝術：任務規劃的不可能三角]]
-> - [[Grimoires/strategic-anger-communication|⚖️ 憤怒的外交：戰術性情緒運用術式]]
+> - [[Dictums/smart-principles|🎯 SMART 符文：精準目標的五重定義]]
+> - [[Dictums/art-principles|🎨 ART 藝術：任務規劃的不可能三角]]
+> - [[Dictums/strategic-anger-communication|⚖️ 憤怒的外交：戰術性情緒運用術式]]
 > 
 > ### 🏢 企業與專案管理 (Enterprise Management)
-> - [[Grimoires/scrum-agile-framework|🛡️ Scrum 敏捷戰法：團隊協作的古老契約]]
-> - [[Grimoires/efficient-meeting-methodology|🔮 高效會議術：精神鏈接與共鳴]]
-> - [[Grimoires/cross-department-project-obstacles|🏰 跨部門推進項目：破除結界障礙]]
-> - [[Grimoires/eight-types-of-employees|⚓ 職業錨：探索僕從的八種核心天賦]]
-> - [[Grimoires/managing-post-2000s-employees|🏔️ 管理新世代隨從：Z 世代的魔法契約]]
-> - [[Grimoires/leadership-time-management|⏳ 領袖時間管理：四象限資源分配術]]
-> - [[Grimoires/effective-conversations|🌱 GROW 實戰：對話轉化為成果的咒語]]
-> - [[Grimoires/work-review-methodology|🛡️ 戰鬥復盤：記憶萃取與經驗值獲得]]
+> - [[Dictums/scrum-agile-framework|🛡️ Scrum 敏捷戰法：團隊協作的古老契約]]
+> - [[Dictums/efficient-meeting-methodology|🔮 高效會議術：精神鏈接與共鳴]]
+> - [[Dictums/cross-department-project-obstacles|🏰 跨部門推進項目：破除結界障礙]]
+> - [[Dictums/eight-types-of-employees|⚓ 職業錨：探索僕從的八種核心天賦]]
+> - [[Dictums/managing-post-2000s-employees|🏔️ 管理新世代隨從：Z 世代的魔法契約]]
+> - [[Dictums/leadership-time-management|⏳ 領袖時間管理：四象限資源分配術]]
+> - [[Dictums/effective-conversations|🌱 GROW 實戰：對話轉化為成果的咒語]]
+> - [[Dictums/work-review-methodology|🛡️ 戰鬥復盤：記憶萃取與經驗值獲得]]
 
 > [!tip]- **生產技能 (Crafting & Knowledge)**
 > *用於創造與輔助的技能*
 > 
 > ### 🎨 介面工藝 (UI/UX)
-> - [[Grimoires/ui-design-basics|🖌️ 視覺工坊：UI 設計基礎法則與美學]]
+> - [[Artifice/ui-design-basics|🖌️ 視覺工坊：UI 設計基礎法則與美學]]
 > 
 > ### 💰 煉金術 (Finance)
 > - [[SageTower/financial-planning-practice|理財規劃與實務]]
 > 
 > ### ⚒️ 奧術皮藝 (Leathercrafting)
-> - [[leather-wallet-design|⚒️ 奧術皮藝：長夾打版聖典]]
+> - [[Artifice/leather-wallet-design|⚒️ 奧術皮藝：長夾打版聖典]]
 > 
 > ### 📢 吟遊詩人 (Marketing)
-> - [[Grimoires/personal-branding-management|🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊]]
+> - [[Artifice/personal-branding-management|🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊]]
 > 
 > ### 🧠 智慧導引 (AI Prompting)
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
@@ -111,8 +111,8 @@ tags:
 |  **飾品**  | [[Grimoires/git-configuration|📜 版本控制咒語：Git 配置秘笈]]                                       | 版本控制安全性 +100% |
 | **任務道具** | [[Quests/obsidian-image-hosting-gcp|☁️ 雲端圖床召喚術：GCP & Cloud Run]] | 雲端儲存空間        |
 |  **卷軸**  | [[Quests/code-quality-management|🔍 冒險者自我守護：SonarQube 品質監控系統]]                                    | 自動修復 Bug 機率提升 |
-| **攜帶物品** | [[toy-box|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]                                            | 無             |
-| **攜帶物品** | [[obsidian-plugins|📜 儀式用具：Obsidian 神兵套件]]                                         | 無             |
+| **攜帶物品** | [[Artifice/toy-box|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]                                            | 無             |
+| **攜帶物品** | [[Artifice/obsidian-plugins|📜 儀式用具：Obsidian 神兵套件]]                                         | 無             |
 
 ---
 > [!quote] 角色語錄

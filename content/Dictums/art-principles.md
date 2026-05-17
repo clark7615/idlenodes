@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🎨 ART 藝術：任務規劃的不可能三角
@@ -64,6 +64,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何將目標符進化？參考 [[Grimoires/smart-principles|SMART 符文：精準任務目標]]
-> - 管理你的精神能量？參考 [[Grimoires/leadership-time-management|領袖時間管理：四象限資源分配術]]
+> - 如何將目標符進化？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標]]
+> - 管理你的精神能量？參考 [[Dictums/leadership-time-management|領袖時間管理：四象限資源分配術]]
 

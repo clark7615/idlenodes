@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🏔️ 管理新世代隨從：Z 世代的魔法契約
@@ -54,6 +54,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 洞察屬下的職業天賦？參考 [[Grimoires/eight-types-of-employees|職業錨：探索僕從的八種核心天賦]]
-> - 建立高效對話？參考 [[Grimoires/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
+> - 洞察屬下的職業天賦？參考 [[Dictums/eight-types-of-employees|職業錨：探索僕從的八種核心天賦]]
+> - 建立高效對話？參考 [[Dictums/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
 

@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🔄 戰鬥復盤：經驗值獲取指南
@@ -19,7 +19,7 @@ tags:
 ## 1. 錨定目標 (導航術)
 在開始回溯前，必須清楚你的目的地。模糊的目標會導致能量散失。
 
-*   **核心工具**：建議使用 [[Grimoires/smart-principles|SMART 符文]] 來精準化你的目標，確保路徑清晰可見。
+*   **核心工具**：建議使用 [[Dictums/smart-principles|SMART 符文]] 來精準化你的目標，確保路徑清晰可見。
 
 ---
 
@@ -62,7 +62,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何設定符文標尺？參考 [[Grimoires/smart-principles|SMART 符文：精準任務目標]]
-> - 管理你的休息與效能？參考 [[Grimoires/leadership-time-management|領袖時間管理：資源分配術]]
-> - 在衝刺儀式終點應用復盤？參考 [[Grimoires/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 如何設定符文標尺？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標]]
+> - 管理你的休息與效能？參考 [[Dictums/leadership-time-management|領袖時間管理：資源分配術]]
+> - 在衝刺儀式終點應用復盤？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
 

@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Common"
 icon: "📝"
 tags:
-  - General
+  - Artifice
 ---
 
 # 📜 儀式用具：Obsidian 神兵套件

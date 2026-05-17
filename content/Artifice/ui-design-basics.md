@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Artifice
 ---
 
 # 🖌️ 視覺工坊：UI 設計基礎法則與美學
@@ -68,4 +68,4 @@ UI 設計不僅是裝飾，更是與使用者之間的無聲契約。透過精�
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 高效的開發團隊協作？參考 [[Grimoires/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 高效的開發團隊協作？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]

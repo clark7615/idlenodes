@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🏃 Scrum 衝刺儀式：敏捷開發的策略法典
@@ -107,6 +107,6 @@ Scrum 不是一套死板的規則，而是一種**持續演化的文化**。透�
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 設定明確的衝刺目標？參考 [[Grimoires/smart-principles|SMART 符文：精準任務目標設定]]
-> - 進行高效的衝刺會議？參考 [[Grimoires/efficient-meeting-methodology|高效會議完全攻略：精神鏈接法]]
-> - 工作回顧與戰鬥復盤？參考 [[Grimoires/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 設定明確的衝刺目標？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標設定]]
+> - 進行高效的衝刺會議？參考 [[Dictums/efficient-meeting-methodology|高效會議完全攻略：精神鏈接法]]
+> - 工作回顧與戰鬥復盤？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]

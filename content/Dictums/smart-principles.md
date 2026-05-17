@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🔍 SMART 符文：精準任務目標
@@ -61,8 +61,8 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 另一種目標架構？參考 [[Grimoires/art-principles|ART 藝術：目標設定的另一種維度]]
-> - 時間能量管理？參考 [[Grimoires/leadership-time-management|領袖時間管理：資源分配術]]
-> - 在戰鬥復盤中使用符文？參考 [[Grimoires/work-review-methodology|戰鬥復盤：經驗值獲取指南]]
-> - 敏捷衝刺目標？參考 [[Grimoires/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 另一種目標架構？參考 [[Dictums/art-principles|ART 藝術：目標設定的另一種維度]]
+> - 時間能量管理？參考 [[Dictums/leadership-time-management|領袖時間管理：資源分配術]]
+> - 在戰鬥復盤中使用符文？參考 [[Dictums/work-review-methodology|戰鬥復盤：經驗值獲取指南]]
+> - 敏捷衝刺目標？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
 

@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Common"
 icon: "📝"
 tags:
-  - General
+  - Artifice
 ---
 
 # 🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸

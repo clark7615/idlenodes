@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "⚖️"
 tags:
-  - Grimoires
+  - Dictums
   - Career
 ---
 

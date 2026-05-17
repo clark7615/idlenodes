@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # ⚓ 職業錨：探索僕從的八種核心天賦
@@ -51,6 +51,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 管理新生代僕從？參考 [[Grimoires/managing-post-2000s-employees|管理新世代隨從：Z 世代的魔法契約]]
-> - 讓屬下的對話更具成效？參考 [[Grimoires/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
+> - 管理新生代僕從？參考 [[Dictums/managing-post-2000s-employees|管理新世代隨從：Z 世代的魔法契約]]
+> - 讓屬下的對話更具成效？參考 [[Dictums/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
 

@@ -7,8 +7,7 @@ rarity: "Rare"
 icon: "🎓"
 tags:
   - Quests
-  - LMS
-  - Automation
+  - DevOps
 ---
 # 📜 公會知識傳承結界 (企業內部學習系統)
 

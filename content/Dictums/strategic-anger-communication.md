@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # ⚖️ 憤怒的外交：戰術性情緒運用術式
@@ -64,6 +64,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何將對話轉化為成果？參考 [[Grimoires/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
-> - 建立高效的協作契約？參考 [[Grimoires/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
-> - 進行戰鬥後的深度反思？參考 [[Grimoires/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 如何將對話轉化為成果？參考 [[Dictums/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
+> - 建立高效的協作契約？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 進行戰鬥後的深度反思？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]

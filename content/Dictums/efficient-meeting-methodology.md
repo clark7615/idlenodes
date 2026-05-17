@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 📅 高效會議完全攻略：精神鏈接法
@@ -69,6 +69,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 在衝刺儀式中使用鏈接？參考 [[Grimoires/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
-> - 想了解如何在會後追蹤行動項目？參考 [[Grimoires/work-review-methodology|工作上怎麼復盤：持續優化的成長法典]]
-> - 想了解如何進行更有效的溝通？參考 [[Grimoires/effective-conversations|高效溝通：共鳴與影響力的藝術]]
+> - 在衝刺儀式中使用鏈接？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 想了解如何在會後追蹤行動項目？參考 [[Dictums/work-review-methodology|工作上怎麼復盤：持續優化的成長法典]]
+> - 想了解如何進行更有效的溝通？參考 [[Dictums/effective-conversations|高效溝通：共鳴與影響力的藝術]]

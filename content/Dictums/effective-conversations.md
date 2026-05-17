@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # 🌱 GROW 實戰：對話轉化為成果的咒語
@@ -63,7 +63,7 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 洞察僕從的核心動機？參考 [[Grimoires/eight-types-of-employees|職業錨：探索僕從的八種核心天賦]]
-> - 建立全方位共鳴？參考 [[Grimoires/efficient-meeting-methodology|高效會議：精神鏈接法]]
-> - 管理新生代僕從？參考 [[Grimoires/managing-post-2000s-employees|管理新世代隨從：Z 世代的魔法契約]]
+> - 洞察僕從的核心動機？參考 [[Dictums/eight-types-of-employees|職業錨：探索僕從的八種核心天賦]]
+> - 建立全方位共鳴？參考 [[Dictums/efficient-meeting-methodology|高效會議：精神鏈接法]]
+> - 管理新生代僕從？參考 [[Dictums/managing-post-2000s-employees|管理新世代隨從：Z 世代的魔法契約]]
 

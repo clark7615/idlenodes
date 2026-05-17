@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Grimoires
+  - Dictums
 ---
 
 # ⏳ 領袖時間管理：四象限資源分配術
@@ -36,7 +36,7 @@ tags:
 > [!IMPORTANT] 核心修煉
 > 這是高效領袖產出最高價值的地方。包含規劃、預防、建立制度與自我提升。
 *   **行動建議**：
-    1.  **預防與規劃**：使用 [[Grimoires/smart-principles|SMART 符文]] 精準化目標，減少未來的「火燒眉毛」。
+    1.  **預防與規劃**：使用 [[Dictums/smart-principles|SMART 符文]] 精準化目標，減少未來的「火燒眉毛」。
     2.  **自動化與系統化**：將重複性流程固化為標準化咒語，釋放你的能量。
     3.  **投資未來**：提升專業技能（修煉）、建立核心人脈（同盟）、維護身心結界（健康與反思）。
 *   **目標**：將大部分的精力投入此區，能讓你更從容地主導未來。
@@ -68,6 +68,6 @@ tags:
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何精準化目標？參考 [[Grimoires/smart-principles|SMART 符文：精準任務目標設定]]
-> - 定期進行回溯與檢討？參考 [[Grimoires/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
-> - 建立高效溝通減少雜訊？參考 [[Grimoires/effective-conversations|高效溝通：共鳴與影響力的藝術]]
+> - 如何精準化目標？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標設定]]
+> - 定期進行回溯與檢討？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 建立高效溝通減少雜訊？參考 [[Dictums/effective-conversations|高效溝通：共鳴與影響力的藝術]]
