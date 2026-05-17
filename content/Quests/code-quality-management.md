@@ -64,4 +64,5 @@ tags:
 
 > 💡 **延伸閱讀**：
 > - 了解基礎容器技術？參考 [[Grimoires/docker-resource-limits|🐳 容器禁錮：資源限制方案]]
+> - 建立雲端圖床？參考 [[Quests/obsidian-image-hosting-gcp|雲端圖床召喚術：GCP & Cloud Run]]
 

@@ -31,4 +31,5 @@ tags:
 > - 想了解 VS Code 的字體與套件設定？參考 [[Forge/vscode-setup-guide|VS Code 字體及套件設定指南 (macOS & Windows)]]
 > - 想了解 Git 設定？參考 [[Grimoires/git-configuration|Git 配置秘笈]]
 > - 兩種 IDE 的設定可以保持一致性，讓你在不同開發環境中都有相同的體驗。
+> - 建立 DevContainer 開發環境？參考 [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
 

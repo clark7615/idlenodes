@@ -67,3 +67,4 @@ tags:
 > - 如何將對話轉化為成果？參考 [[Dictums/effective-conversations|GROW 實戰：對話轉化為成果的咒語]]
 > - 建立高效的協作契約？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
 > - 進行戰鬥後的深度反思？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 掌握時間能量分配？參考 [[Dictums/leadership-time-management|領袖時間管理：資源分配術]]

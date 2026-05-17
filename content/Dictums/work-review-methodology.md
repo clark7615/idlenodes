@@ -65,4 +65,6 @@ tags:
 > - 如何設定符文標尺？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標]]
 > - 管理你的休息與效能？參考 [[Dictums/leadership-time-management|領袖時間管理：資源分配術]]
 > - 在衝刺儀式終點應用復盤？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 將回顧應用於會議優化？參考 [[Dictums/efficient-meeting-methodology|高效會議攻略：精神鏈接法]]
+> - 在復盤中檢視溝通策略？參考 [[Dictums/strategic-anger-communication|憤怒的外交：戰術性情緒運用術式]]
 

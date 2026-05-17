@@ -65,4 +65,6 @@ tags:
 > - 時間能量管理？參考 [[Dictums/leadership-time-management|領袖時間管理：資源分配術]]
 > - 在戰鬥復盤中使用符文？參考 [[Dictums/work-review-methodology|戰鬥復盤：經驗值獲取指南]]
 > - 敏捷衝刺目標？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
+> - 用 SMART 定義跨部門目標？參考 [[Dictums/cross-department-project-obstacles|跨部門推進：破除結界障礙]]
+> - 用 SMART 規劃個人品牌目標？參考 [[Artifice/personal-branding-management|個人品牌勇者傳：形象管理實戰 RPG 手冊]]
 

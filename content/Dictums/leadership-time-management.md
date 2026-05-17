@@ -71,3 +71,6 @@ tags:
 > - 如何精準化目標？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標設定]]
 > - 定期進行回溯與檢討？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
 > - 建立高效溝通減少雜訊？參考 [[Dictums/effective-conversations|高效溝通：共鳴與影響力的藝術]]
+> - 理解任務規劃的三重平衡？參考 [[Dictums/art-principles|ART 藝術：任務規劃的不可能三角]]
+> - 策略性運用心靈術式化解衝突？參考 [[Dictums/strategic-anger-communication|憤怒的外交：戰術性情緒運用術式]]
+> - 打造個人形象強化氣場？參考 [[Artifice/personal-branding-management|個人品牌勇者傳：形象管理實戰 RPG 手冊]]

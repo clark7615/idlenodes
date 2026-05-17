@@ -573,4 +573,5 @@ print(f"\n{years} 年後總本利和：{principal:.2f} 元")
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 想了解如何設定個人理財目標？參考課程中的SMART目標設定原則，並可延伸閱讀 [[Grimoires/smart-principles|SMART 原則是什麼？]]
+> - 想了解如何設定個人理財目標？參考課程中的SMART目標設定原則，並可延伸閱讀 [[Dictums/smart-principles|SMART 原則是什麼？]]
+	

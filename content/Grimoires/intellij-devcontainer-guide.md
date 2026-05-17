@@ -89,4 +89,5 @@ tags:
 > - 擴展 AI 僕從的視覺？參考 [[Grimoires/docker-mcp-toolkit|容器召喚術：Docker MCP Toolkit]]
 > - 強化本地裝備？參考 [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定建議]]
 > - 控管工坊負載？參考 [[Grimoires/docker-resource-limits|容器禁錮：資源限制方案]]
+> - 調教 JVM 容器性能？參考 [[Grimoires/java-container-jvm-settings|JVM 強化：Java Container 高效設置法]]
 

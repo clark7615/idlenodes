@@ -72,3 +72,4 @@ tags:
 > - 在衝刺儀式中使用鏈接？參考 [[Dictums/scrum-agile-framework|Scrum 衝刺儀式：敏捷開發的策略法典]]
 > - 想了解如何在會後追蹤行動項目？參考 [[Dictums/work-review-methodology|工作上怎麼復盤：持續優化的成長法典]]
 > - 想了解如何進行更有效的溝通？參考 [[Dictums/effective-conversations|高效溝通：共鳴與影響力的藝術]]
+> - 用高效會議打通跨部門結界？參考 [[Dictums/cross-department-project-obstacles|跨部門推進：破除結界障礙]]

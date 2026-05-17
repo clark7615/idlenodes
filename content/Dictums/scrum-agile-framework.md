@@ -110,3 +110,6 @@ Scrum 不是一套死板的規則，而是一種**持續演化的文化**。透�
 > - 設定明確的衝刺目標？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標設定]]
 > - 進行高效的衝刺會議？參考 [[Dictums/efficient-meeting-methodology|高效會議完全攻略：精神鏈接法]]
 > - 工作回顧與戰鬥復盤？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 跨部門推展項目的障礙與解法？參考 [[Dictums/cross-department-project-obstacles|跨部門推進：破除結界障礙]]
+> - 在衝刺中應用策略性溝通？參考 [[Dictums/strategic-anger-communication|憤怒的外交：戰術性情緒運用術式]]
+> - 強化團隊協作的視覺基礎？參考 [[Artifice/ui-design-basics|視覺工坊：UI 設計基礎法則]]

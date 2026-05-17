@@ -70,5 +70,6 @@ MCP 伺服器可被視為 AI 代理程式的「知識圖書館」或「魔法道
 > - 想了解AI與提示詞的基礎概念？參考 [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]]
 > - 想了解如何設定DevContainer開發環境？參考 [[Grimoires/intellij-devcontainer-guide|IntelliJ DevContainer 設定教學手冊]]
 > - 想了解Docker容器資源管理？參考 [[Grimoires/docker-resource-limits|Docker 容器資源限制說明文件]]
+> - 了解代碼品質監控？參考 [[Quests/code-quality-management|冒險者自我守護：SonarQube 品質監控系統]]
 
 

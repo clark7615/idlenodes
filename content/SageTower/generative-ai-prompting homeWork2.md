@@ -1,17 +1,12 @@
 ---
 title: "[提示工程演練] AI 驅動的第二大腦：運用提示工程優化 Obsidian 學習筆記流（實戰演練）"
 description: 透過深津氏框架優化 Prompt，實測將長篇 AI 報導自動轉化為具備雙向連結的 Obsidian 原子筆記，並比較對照組與優化組的成效。
-permalink: " /generative-ai-prompting-homework2"
+permalink: "/generative-ai-prompting-homework2"
+class: "Oracle"
 rarity: Common
 icon: 🧠
 tags:
   - SageTower
-  - Obsidian
-  - GAI
-  - 深津氏框架
-  - 提示工程
-  - 自動化筆記
-  - 對照實驗
 ---
 # [提示工程演練] AI 驅動的第二大腦：運用提示工程優化 Obsidian 學習筆記流（實戰演練）
 

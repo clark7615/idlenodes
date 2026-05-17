@@ -106,7 +106,7 @@ tags:
 #### 目標管理
 短期目標3年內 長期目標 10年以上
 
-目標訂定[[ Grimoires/smart-principles|SMART原則]]
+目標訂定[[Dictums/smart-principles|SMART原則]]
 
 目標與關鍵成果[[OKR(我會這個東西但須要補上教學文件)]]
 

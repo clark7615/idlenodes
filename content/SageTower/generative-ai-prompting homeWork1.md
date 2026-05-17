@@ -1,13 +1,12 @@
 ---
 title: "[GAI議題] AI 驅動的第二大腦：運用提示工程優化 Obsidian 學習筆記流"
 description: 探討如何運用 AI 與提示工程優化 Obsidian 的學習筆記流，將碎片的資訊轉化為系統化的知識。
-permalink: " /generative-ai-prompting-homework1"
+permalink: "/generative-ai-prompting-homework1"
+class: "Oracle"
 rarity: Common
 icon: 🧠
 tags:
-  - "#SageTower"
-  - "#Obsidian"
-  - "#GAI"
+  - SageTower
 ---
 # [GAI議題] AI 驅動的第二大腦：運用提示工程優化 Obsidian 學習筆記流
 

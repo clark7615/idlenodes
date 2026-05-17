@@ -98,4 +98,5 @@ docker run --cpus="2" --memory="1g" --cpuset-cpus="0,1" my_container
 > - 如何設置 JVM 的內部能量？參考 [[Grimoires/java-container-jvm-settings|JVM 強化：Java Container 高效設置法]]
 > - 建立一致的開發結界？參考 [[Grimoires/intellij-devcontainer-guide|魔法工坊配置：DevContainer 教學]]
 > - 使用 Docker 召喚 MCP 工具？參考 [[Grimoires/docker-mcp-toolkit|容器召喚術：Docker MCP Toolkit]]
+> - 結合容器與代碼品質監控？參考 [[Quests/code-quality-management|冒險者自我守護：SonarQube 品質監控系統]]
 

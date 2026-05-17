@@ -2,14 +2,11 @@
 title: "[期末報告] AI 驅動的第二大腦：運用提示工程建構深度學習內化系統"
 description: 本報告為學期連貫專題之最終成果，探討如何運用深津氏提問框架，將 AI 由單純的摘要工具升級為具備批判性思考與知識連結能力的 Obsidian 助教。
 permalink: "/generative-ai-prompting-final-report"
+class: "Oracle"
 rarity: Rare
 icon: 🎓
 tags:
-  - "#SageTower"
-  - "#Obsidian"
-  - "#提示工程"
-  - "#深津氏框架"
-  - "#知識內化"
+  - SageTower
 ---
 
 # [期末報告] AI 驅動的第二大腦：運用提示工程建構深度學習內化系統
