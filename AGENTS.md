@@ -67,3 +67,6 @@ tags:
 
 - **YAML Frontmatter 仍需遵守**（title、description、permalink、class、rarity、icon、tags），且 tag 不可有 `#` 前綴
 - 不搬、不移、不改內部連結、不補雙向連結
+
+
+如果需要程式的話使用測試NODEJS
