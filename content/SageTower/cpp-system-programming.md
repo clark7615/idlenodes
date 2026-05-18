@@ -185,6 +185,30 @@ main.cpp    ← 主程式：呼叫 start()，不需要知道它怎麼實作的
 
 這裡有一個實務提醒：**永遠為變數選擇「語意最清楚」的型別**。如果這個值永遠只會是整數，不要用 `double`；如果這個值只有是/否，用 `bool` 而不是 `int` 的 0 和 1。型別本身就是文件的一部分。
 
+### 型別記憶體用量與數值範圍一覽
+
+以下是 C++ 常用型別在 **Windows (MSVC)** 平台上的實際規格：
+
+| 型別 | `sizeof` | 最小值 | 最大值 |
+|------|----------|--------|--------|
+| `bool` | 1 byte | `false` | `true` |
+| `char` | 1 byte | -128 | 127 |
+| `unsigned char` | 1 byte | 0 | 255 |
+| `short` | 2 bytes | -32,768 | 32,767 |
+| `unsigned short` | 2 bytes | 0 | 65,535 |
+| `int` | 4 bytes | -2,147,483,648 | 2,147,483,647 |
+| `unsigned int` | 4 bytes | 0 | 4,294,967,295 |
+| `long` | 4 bytes | -2,147,483,648 | 2,147,483,647 |
+| `unsigned long` | 4 bytes | 0 | 4,294,967,295 |
+| `long long` | 8 bytes | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807 |
+| `unsigned long long` | 8 bytes | 0 | 18,446,744,073,709,551,615 |
+| `float` | 4 bytes | ±1.175×10⁻³⁸ | ±3.403×10³⁸ |
+| `double` | 8 bytes | ±2.225×10⁻³⁰⁸ | ±1.798×10³⁰⁸ |
+
+> **⚡ 跨平台注意**：上表以 **MSVC (Windows)** 為準。在 Linux/macOS 上 `long` 是 8 bytes（等於 `long long`），而非 4 bytes。如果你未來把程式搬到 Linux 伺服器上執行，要特別注意這點。`int` 和 `long long` 的大小在所有主流平台則是一致的。
+
+初學階段不需要背這些數字，但要知道**每種型別能裝的資料範圍是有限的**。把一個超過 21 億的數值放進 `int`，會發生「溢位（Overflow）」——值會繞回負數，而且編譯器不會警告你。
+
 ---
 
 ## 第 6 頁：Level 2 — 運算子分類
@@ -332,8 +356,8 @@ if ( (p==1 && c==3) || (p==2 && c==1) || (p==3 && c==2) )
 // Function to convert choice number to string for display
 std::string choiceToString(int choice) {
     switch (choice) {
-        case 1: return "石頭";
-        case 2: return "剪刀";
+        case 1: return "剪刀";
+        case 2: return "石頭";
         case 3: return "布";
         default: return "未知";
     }
@@ -375,9 +399,9 @@ int main() {
         std::cout << "電腦的選擇: " << choiceToString(computerChoice) << std::endl;
 
         // Determine the winner for the round
-        if ( (playerChoice == 1 && computerChoice == 3) || // Rock vs Paper
-             (playerChoice == 2 && computerChoice == 1) || // Scissors vs Rock
-             (playerChoice == 3 && computerChoice == 2) ) { // Paper vs Scissors
+        if ( (playerChoice == 1 && computerChoice == 3) || // 剪刀 vs 布
+             (playerChoice == 2 && computerChoice == 1) || // 石頭 vs 剪刀
+             (playerChoice == 3 && computerChoice == 2) ) { // 布 vs 石頭
             std::cout << "你贏了！" << std::endl;
             playerWins++;
         } else if (playerChoice == computerChoice) {
@@ -512,8 +536,8 @@ int getPlayerChoice() {
 //    使用值傳遞，因為我們只需要讀取 player 和 computer 的值來判斷
 //    回傳值：1 (玩家贏), 0 (平手), -1 (電腦贏)
 int determineWinner(int player, int computer) {
-    if ( (player == 1 && computer == 3) || // 石頭 vs 布
-         (player == 2 && computer == 1) || // 剪刀 vs 石頭
+    if ( (player == 1 && computer == 3) || // 剪刀 vs 布
+         (player == 2 && computer == 1) || // 石頭 vs 剪刀
          (player == 3 && computer == 2) ) { // 布 vs 石頭
         return 1; // 玩家贏
     } else if (player == computer) {
@@ -564,8 +588,8 @@ void displayFinalSummary(int rounds, int playerWins, int computerWins, int ties)
 // Helper function for choiceToString (same as before)
 std::string choiceToString(int choice) {
     switch (choice) {
-        case 1: return "石頭";
-        case 2: return "剪刀";
+        case 1: return "剪刀";
+        case 2: return "石頭";
         case 3: return "布";
         default: return "未知";
     }
@@ -757,6 +781,29 @@ p=&a:  │      10      │    │    0x1000    │──→ 指向 a
 
 「何時不用指標？」也同樣重要：對於簡單的小型資料且不需要修改原始值時，直接用一般變數就好，程式碼更簡潔、更安全。
 
+### ⚡ 安全警告：空指標與解參考
+
+指標最大的危險來自一個情況：**指標沒有指向有效的記憶體**。
+
+```cpp
+int* p = nullptr;   // C++11 之後用 nullptr 表示「空的指標」
+// int* p = NULL;   // 舊寫法，效果相同，但 nullptr 更安全
+
+*p = 10;            // ⚠️ 大雷！p 是 nullptr，會 Segmentation Fault
+```
+
+永遠記得：**解參考（`*p`）之前，確認指標不是空的。**
+
+```cpp
+if (p != nullptr) {
+    *p = 10;  // 安全
+} else {
+    // 處理空指標的情況
+}
+```
+
+對 `nullptr` 做解參考，你的程式會直接崩潰。在 EMS 這種必須長時間穩定運行的系統中，這種錯誤是不可接受的。**養成先檢查再使用的習慣**。
+
 
 ### 🧩 指標操作陣列（Array + Pointer）
 
@@ -766,7 +813,8 @@ p=&a:  │      10      │    │    0x1000    │──→ 指向 a
 
 ```cpp
 int arr[3] = {10, 20, 30};
-int* p = arr;      // arr 等於 &arr[0]，所以 p 指向 arr[0]
+int* p = arr;      // arr 本身就是地址，不需要加 &
+                   // 等同於 int* p = &arr[0];
 ```
 
 這意味著 `arr[i]` 和 `*(p + i)` **在底層是一樣的**——編譯器看到 `arr[i]` 就自動翻譯成 `*(arr + i)`。
