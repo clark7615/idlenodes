@@ -245,3 +245,4 @@ TOT 是一種更進階的推理術式，它不像 COT 那樣只走單一路線�
 > - 想深入研習 AI 的發展脈絡與施法戰術？參考 [[Grimoires/gpt-prompt-engineering|🤖 AI 與提示詞工程學：高效使用 GPT 的策略]]
 > - 想了解如何施展容器召喚術為奧術僕從提供更強大的裝備？參考 [[Grimoires/docker-mcp-toolkit|🔮 容器召喚術：Docker MCP Toolkit]]
 > - 想掌握脈絡工程的深不可測奧義？參考 [[Grimoires/context-engineering|🧠 Context Engineering：設計 AI 認知邊界的教學指南]]
+> - 想學習深津式與變數式兩大結構化框架？參考 [[Grimoires/prompt-framework-techniques|🧠 提示詞結構化框架：深津式與變數式完全教學]]

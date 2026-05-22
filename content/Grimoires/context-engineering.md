@@ -117,3 +117,4 @@ Context Engineering 的學習曲線，是從「學習怎麼問問題」，進化
 > - 理解 AI 與各世代模型發展？參考 [[SageTower/generative-ai-prompting|🤖 生成式 AI 與提示工程]]
 > - 如何約束 AI 代理人的行為？參考 [[Grimoires/harness-engineering|⚙️ Harness Engineering (治理工程)]]
 > - 學習基礎咒語鑄造？參考 [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
+> - 想學習深津式與變數式結構化提示框架？參考 [[Grimoires/prompt-framework-techniques|🧠 提示詞結構化框架：深津式與變數式完全教學]]

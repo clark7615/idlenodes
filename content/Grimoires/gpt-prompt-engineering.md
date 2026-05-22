@@ -150,4 +150,5 @@ tags:
 > 💡 **延伸閱讀**：
 > - 想了解更詳細的提示詞框架與技巧？參考 [[Grimoires/ai-prompts-guide|AI提示詞完全攻略：有效引導大型語言模型]]
 > - 想了解如何使用Docker MCP擴展AI功能？參考 [[Grimoires/docker-mcp-toolkit|Docker MCP Toolkit]]
+> - 想學習深津式與變數式結構化提示框架？參考 [[Grimoires/prompt-framework-techniques|🧠 提示詞結構化框架：深津式與變數式完全教學]]
 
