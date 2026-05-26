@@ -38,6 +38,7 @@ tags:
 > - [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
 > - [[Grimoires/context-engineering|🧠 Context Engineering (脈絡工程)]]
 > - [[Grimoires/harness-engineering|⚙️ Harness Engineering (治理工程)]]
+> - [[Grimoires/multi-agent-orchestration|🤖 多 Agent 協作模式：主從、執行緒、跨部門、工作流]]
 > - [[Grimoires/backend-csd-architecture|📜 奧術核心：後端 CSD 架構法典]]
 > - [[Grimoires/swagger-multi-site-ui|📜 Swagger 多位面傳輸：跨站點 UI 整合法典]]
 > - [[Grimoires/git-configuration|📜 版本控制咒語：Git 配置秘笈]]
