@@ -34,9 +34,12 @@ tags:
 
 > [!BOOK]- 📖 奧術法典 (Arcane Spellbook)
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
-> - [[Grimoires/ai-prompts-guide|AI 提示詞完全攻略：言靈之術]]
-> - [[Grimoires/gpt-prompt-engineering|AI 與提示詞工程學：思維引導]]
-> - [[Grimoires/context-engineering|🧠 Context Engineering (脈絡工程)]]
+> - [[Grimoires/ai-fundamentals|🔮 AI 基礎奧義：從判別到生成的進化之路]]
+> - [[Grimoires/llm-guide|📖 大語言模型圖鑑：LLM 的奧秘與運作機制]]
+> - [[Grimoires/ai-agent-summoning|🤖 AI Agent 召喚術：從預測之靈到行動先知]]
+> - [[Grimoires/ai-prompts-guide|📜 咒語鑄造術：AI 提示詞的完全施法指南]]
+> - [[Grimoires/gpt-prompt-engineering|🤖 AI 與提示詞工程學：高效使用 GPT 的策略]]
+> - [[Grimoires/context-engineering|🧠 Context Engineering：設計 AI 認知邊界的教學指南]]
 > - [[Grimoires/harness-engineering|⚙️ Harness Engineering (治理工程)]]
 > - [[Grimoires/multi-agent-orchestration|🤖 多 Agent 協作模式：主從、執行緒、跨部門、工作流]]
 > - [[Grimoires/backend-csd-architecture|📜 奧術核心：後端 CSD 架構法典]]

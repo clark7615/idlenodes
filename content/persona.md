@@ -60,10 +60,14 @@ tags:
 > - [[Grimoires/intellij-devcontainer-guide|🏗️ 魔法工坊配置：DevContainer 實戰教學]]
 > 
 > ### 🤖 人工智慧 (AI Mastery)
-> - [[Grimoires/gpt-prompt-engineering|AI與提示詞工程學：高效使用GPT的策略]] `Ultimate`
-> - [[Grimoires/ai-prompts-guide|AI提示詞完全攻略：有效引導大型語言模型]]
-> - [[Grimoires/context-engineering|🧠 Context Engineering (脈絡工程)]]
+> - [[Grimoires/ai-fundamentals|🔮 AI 基礎奧義：從判別到生成的進化之路]]
+> - [[Grimoires/llm-guide|📖 大語言模型圖鑑：LLM 的奧秘與運作機制]]
+> - [[Grimoires/ai-agent-summoning|🤖 AI Agent 召喚術：從預測之靈到行動先知]]
+> - [[Grimoires/ai-prompts-guide|📜 咒語鑄造術：AI 提示詞的完全施法指南]]
+> - [[Grimoires/gpt-prompt-engineering|🤖 AI 與提示詞工程學：高效使用 GPT 的策略]]
+> - [[Grimoires/context-engineering|🧠 Context Engineering：設計 AI 認知邊界的教學指南]]
 > - [[Grimoires/harness-engineering|⚙️ Harness Engineering (治理工程)]]
+> - [[Grimoires/multi-agent-orchestration|🤖 多 Agent 協作模式：主從、執行緒、跨部門、工作流]]
 
 > [!abstract]- **被動技能 (Passive Skills)**
 > *永久提升角色素質的知識*
