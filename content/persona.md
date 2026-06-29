@@ -123,13 +123,13 @@ tags:
 
 |    欄位    | 裝備名稱                                               | 效果            |
 | :------: | -------------------------------------------------- | ------------- |
-| **主手武器** | [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定]]                             | 程式開發效率 +50%   |
-| **副手武器** | [[Forge/vscode-setup-guide|輕量化武裝：VS Code 設定指南]]            | 輕量編輯靈巧度 +30%  |
-|  **飾品**  | [[Grimoires/git-configuration|📜 版本控制咒語：Git 配置秘笈]]                                       | 版本控制安全性 +100% |
-| **任務道具** | [[Quests/obsidian-image-hosting-gcp|☁️ 雲端圖床召喚術：GCP & Cloud Run]] | 雲端儲存空間        |
-|  **卷軸**  | [[Quests/code-quality-management|🔍 冒險者自我守護：SonarQube 品質監控系統]]                                    | 自動修復 Bug 機率提升 |
-| **攜帶物品** | [[Artifice/toy-box|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]                                            | 無             |
-| **攜帶物品** | [[Artifice/obsidian-plugins|📜 儀式用具：Obsidian 神兵套件]]                                         | 無             |
+| **主手武器** | [[Forge/intellij-idea-settings\|核心裝備強化：IntelliJ IDEA 設定]]                             | 程式開發效率 +50%   |
+| **副手武器** | [[Forge/vscode-setup-guide\|輕量化武裝：VS Code 設定指南]]            | 輕量編輯靈巧度 +30%  |
+|  **飾品**  | [[Grimoires/git-configuration\|📜 版本控制咒語：Git 配置秘笈]]                                       | 版本控制安全性 +100% |
+| **任務道具** | [[Quests/obsidian-image-hosting-gcp\|☁️ 雲端圖床召喚術：GCP & Cloud Run]] | 雲端儲存空間        |
+|  **卷軸**  | [[Quests/code-quality-management\|🔍 冒險者自我守護：SonarQube 品質監控系統]]                                    | 自動修復 Bug 機率提升 |
+| **攜帶物品** | [[Artifice/toy-box\|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]                                            | 無             |
+| **攜帶物品** | [[Artifice/obsidian-plugins\|📜 儀式用具：Obsidian 神兵套件]]                                         | 無             |
 
 ---
 > [!quote] 角色語錄
