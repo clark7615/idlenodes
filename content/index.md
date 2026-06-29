@@ -1,12 +1,12 @@
 ---
-title: "閒逸神諭所：奧術全端先知之書 🏰"
-description: "這是 LV.39 奧術全端先知的數位花園，記錄著我橫跨後端奧術、AI 與管理智慧的冒險歷程。"
-permalink: "/index"
-class: "Oracle"
-rarity: "Unique"
-icon: "📝"
+title: 閒逸神諭所：奧術全端先知之書 🏰
+description: 這是 LV.39 奧術全端先知的數位花園，記錄著我橫跨後端奧術、AI 與管理智慧的冒險歷程。
+permalink: /index
+class: Oracle
+rarity: Unique
+icon: 📝
 tags:
-  - General
+  - index
 ---
 # 歡迎進入閒逸神諭所 🏰
 
@@ -48,7 +48,16 @@ tags:
 > - [[Grimoires/java-container-jvm-settings|☕ JVM 強化：容器化位面高效配置]]
 > - [[Grimoires/newman-cicd-testing|🧪 自動化試煉：Newman & CI/CD 測試祭壇]]
 
-> [!SCROLL]- 📜 奧術箴言錄 (Arcane Dictums)
+> [!DICE]- 💡 數位創新 (Digital Innovation)
+> *數位時代的商業模式、轉型策略與創新思維。*
+> - [[Grimoires/digital-innovation-golden-rules|💡 創造市場，解決問題：數位時代的創新黃金法則]]
+> - [[Grimoires/digital-transformation-five-stages|🏗️ 從自動化到數位 DNA：企業轉型的五個階梯]]
+> - [[Grimoires/innovation-landscape-map|🗺️ 創新地貌圖：如何將資源精準投入四種創新路徑？]]
+> - [[Grimoires/transaction-cost-reduction-platforms|📉 交易成本的減法藝術：數位平台的隱形戰場]]
+> - [[Grimoires/api-as-a-product|🔌 API 即產品：從技術接口到利潤中心的商業路徑]]
+> - [[Grimoires/algorithmic-economy-prediction|🧠 演算法經濟時代：為何預測能力是企業的第二大腦？]]
+
+> [!SCROLL]- 📜 管理敕令 (Arcane Dictums)
 > *管理者的權威敕令：領導統御、組織法則與團隊協作的奧術律法。*
 > - [[Dictums/scrum-agile-framework|🛡️ Scrum 敏捷戰法：團隊協作的古老契約]]
 > - [[Dictums/efficient-meeting-methodology|🔮 高效會議術：精神鏈接與共鳴]]
@@ -63,6 +72,15 @@ tags:
 > - [[Dictums/smart-principles|🎯 SMART 符文：精準目標的五重定義]]
 > - [[Dictums/workplace-alliances|⚖️ 職場站隊的底層邏輯 — Junior 的生存與選擇框架]]
 
+> [!COIN]- 💰 鍊金術 (Finance Alchemy)
+> *個人財務管理、投資策略與風險控制的古老智慧。*
+> - [[Dictums/financial-planning-steps|💰 金幣守護術：個人理財的七重結界]]
+> - [[Dictums/life-cycle-finance|⏳ 生命週期：六大階段的理財路線圖]]
+> - [[Dictums/risk-management-four-strategies|🛡️ 風險結界：四大防禦策略]]
+> - [[Dictums/family-financial-statements|📊 魔法家計簿：家庭財務偵查術]]
+> - [[Dictums/risk-tolerance-assessment|🎯 風險承受度：你的冒險類型]]
+> - [[Dictums/insurance-planning-basics|🏥 保險結界：守護財富的最後防線]]
+
 > [!CRAFT]- 🔧 奧術工藝 (Arcane Artifice)
 > *創造與工藝之術：UI 美學、品牌形象與手工藝的法則。*
 > - [[Artifice/ui-design-basics|🖌️ 視覺工坊：UI 設計基礎法則與美學]]
@@ -75,7 +93,6 @@ tags:
 > *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
 > - [[SageTower/financial-planning-practice|現代煉金術：理財規劃與實務]]
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
-
 
 > [!TOOL]- 🛠️ 鍛造工坊 (The Forge)
 > *工欲善其事，必先利其器。此處存放著先知的核心裝備配置。*
