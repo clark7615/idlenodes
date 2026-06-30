@@ -11,7 +11,7 @@ tags:
 
 > [!infobox]
 > # 穆野靜楓
-> ![](https://static-cdn.jtvnw.net/jtv_user_pictures/28c0d698-eb3a-4dba-9643-ee0b019c7ef0-profile_image-300x300.png)
+> ![](https://avatars.akamai.steamstatic.com/5a39757e07623ff469a1b1831ae0babd805cede8_full.jpg))
 > ##### 角色概要 (Character Profile)
 > | | |
 > |---|---|
@@ -24,12 +24,12 @@ tags:
 > ##### 核心屬性 (Base Stats)
 > | 屬性 | 數值 | 評價 |
 > | :-: | :-: | :-: |
-> | **STR** | 6 | ■■■■■■□□□□ (健康是本錢) |
+> | **STR** | 5 | ■■■■■□□□□□ (健康是本錢) |
 > | **DEX** | 9 | ■■■■■■■■■□ (全能身手) |
 > | **INT** | 10 | ■■■■■■■■■■ (技術巔峰) |
 > | **WIS** | 10 | ■■■■■■■■■■ (決策智慧) |
 > | **CHA** | 9 | ■■■■■■■■■□ (技術佈道) |
-> | **LUK** | 8 | ■■■■■■■■□□ (機遇掌握) |
+> | **LUK** | 9 | ■■■■■■■■■□ (機遇掌握) |
 > 
 > ---
 > ##### ⚖️ 陣營說明 (Alignment Info)
@@ -124,16 +124,25 @@ tags:
 
 |    欄位    | 裝備名稱                                               | 效果            |
 | :------: | -------------------------------------------------- | ------------- |
-| **主手武器** | [[Forge/intellij-idea-settings\|核心裝備強化：IntelliJ IDEA 設定]]                             | 程式開發效率 +50%   |
-| **副手武器** | [[Forge/vscode-setup-guide\|輕量化武裝：VS Code 設定指南]]            | 輕量編輯靈巧度 +30%  |
-|  **飾品**  | [[Grimoires/git-configuration\|📜 版本控制咒語：Git 配置秘笈]]                                       | 版本控制安全性 +100% |
-| **任務道具** | [[Quests/obsidian-image-hosting-gcp\|☁️ 雲端圖床召喚術：GCP & Cloud Run]] | 雲端儲存空間        |
-|  **卷軸**  | [[Quests/code-quality-management\|🔍 冒險者自我守護：SonarQube 品質監控系統]]                                    | 自動修復 Bug 機率提升 |
-| **攜帶物品** | [[Artifice/toy-box\|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]                                            | 無             |
-| **攜帶物品** | [[Artifice/obsidian-plugins\|📜 儀式用具：Obsidian 神兵套件]]                                         | 無             |
+| **主手武器** | [[Grimoires/ai-agent-summoning\|🤖 奧術人偶召喚術：從預測之靈到行動先知]] | 整體工作效率 +100% |
+| **副手武器** | [[Grimoires/harness-engineering\|⚙️ Harness Engineering：約束 AI 代理人的基礎設施]] | 奧術人偶調度能力 +30% |
+|  **飾品**  | [[Grimoires/docker-resource-limits\|🐳 容器禁錮：Docker 資源限制方案]] | 容器穩定 +100% |
+| **任務道具** | [[Grimoires/java-container-jvm-settings\|☕ JVM 強化：Java Container 高效設置法]] | 容器效能提升 |
+|  **卷軸**  | [[Grimoires/newman-cicd-testing\|🧪 自動化試煉：Newman & CI/CD 測試祭壇]] | 自動化驗證 |
+| **攜帶物品** | [[Artifice/toy-box\|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]] | 無 |
+| **攜帶物品** | [[Artifice/obsidian-plugins\|📜 儀式用具：Obsidian 神兵套件]] | 無 |
+| **攜帶物品** | [[Grimoires/git-configuration\|📜 版本控制咒語：Git 配置秘笈]] | 版本控制安全性 +100% |
 
 ---
 > [!quote] 角色語錄
 > *"讀聖賢書，所學何事？而今而後，庶幾無愧。"*
+
+## 📜 事件紀錄 (Change Log)
+
+| 日期 | 變更內容 | 原因 |
+|------|---------|------|
+| 2026-06-30 | STR 6 → 5 | 長期無規律運動，體能狀態下降 |
+| 2026-06-30 | LUK 8 → 9 | 強烈的命運感知力，期望之事數週內成真 |
+| 2026-06-30 | 背包全面翻新 | 主手 AI Agent + Harness Engineering 副手，容器禁錮飾品，JVM 任務道具，Newman 卷軸，Git 配置移至攜帶物品 |
 
 回到法典目錄 [[index.md]]
