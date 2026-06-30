@@ -52,7 +52,7 @@ tags:
 > - [[Grimoires/java-container-jvm-settings|☕ JVM 強化：容器化位面高效配置]]
 > - [[Grimoires/newman-cicd-testing|🧪 自動化試煉：Newman & CI/CD 測試祭壇]]
 
-> [!DICE]- 💡 數位創新 (Digital Innovation)
+> [!DICE]- 💡 創新奧術 (Innovation Arcana)
 > *數位時代的商業模式、轉型策略與創新思維。*
 > - [[Innovation/four-arcane-visions|💡 四重奧術視界：冒險工會的創新黃金法則]]
 > - [[Innovation/guild-evolution-five-stages|🏗️ 工會進化五階試煉：從自動化到活著的奧術 DNA]]
