@@ -6,9 +6,11 @@
 |------|------|-----|
 | `Grimoires/` | 技術魔法（Git、Docker、Java、AI） | `Grimoires` |
 | `Dictums/` | 管理敕令（Scrum、SMART、會議、復盤） | `Dictums` |
+| `Finance/` | 鍊金術（理財規劃、保險、風險管理） | `Finance` |
 | `Artifice/` | 奧術工藝（UI、皮藝、Obsidian） | `Artifice` |
 | `Quests/` | 任務記錄（CI/CD、內訓系統） | `Quests` |
 | `Forge/` | 工具配置（IntelliJ、VS Code） | `Forge` |
+| `Innovation/` | 數位創新（商業模式、轉型策略） | `Innovation` |
 | `SageTower/` | 學校作業 — YAML 遵守，其餘放生 | `SageTower` |
 | `Assets/` | 圖片資源 | — |
 

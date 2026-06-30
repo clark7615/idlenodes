@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Epic"
 icon: "💡"
 tags:
-  - Grimoires
+  - Innovation
   - Career
 ---
 

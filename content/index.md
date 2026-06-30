@@ -34,6 +34,7 @@ tags:
 
 > [!BOOK]- 📖 奧術法典 (Arcane Spellbook)
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
+> - [[Grimoires/pseudocode-guide|📝 術式藍本完整指南：從入門到實戰]]
 > - [[Grimoires/ai-fundamentals|🔮 AI 基礎奧義：從判別到生成的進化之路]]
 > - [[Grimoires/llm-guide|📖 大語言模型圖鑑：LLM 的奧秘與運作機制]]
 > - [[Grimoires/ai-agent-summoning|🤖 AI Agent 召喚術：從預測之靈到行動先知]]
@@ -53,12 +54,12 @@ tags:
 
 > [!DICE]- 💡 數位創新 (Digital Innovation)
 > *數位時代的商業模式、轉型策略與創新思維。*
-> - [[Grimoires/digital-innovation-golden-rules|💡 創造市場，解決問題：數位時代的創新黃金法則]]
-> - [[Grimoires/digital-transformation-five-stages|🏗️ 從自動化到數位 DNA：企業轉型的五個階梯]]
-> - [[Grimoires/innovation-landscape-map|🗺️ 創新地貌圖：如何將資源精準投入四種創新路徑？]]
-> - [[Grimoires/transaction-cost-reduction-platforms|📉 交易成本的減法藝術：數位平台的隱形戰場]]
-> - [[Grimoires/api-as-a-product|🔌 API 即產品：從技術接口到利潤中心的商業路徑]]
-> - [[Grimoires/algorithmic-economy-prediction|🧠 演算法經濟時代：為何預測能力是企業的第二大腦？]]
+> - [[Innovation/digital-innovation-golden-rules|💡 創造市場，解決問題：數位時代的創新黃金法則]]
+> - [[Innovation/digital-transformation-five-stages|🏗️ 從自動化到數位 DNA：企業轉型的五個階梯]]
+> - [[Innovation/innovation-landscape-map|🗺️ 創新地貌圖：如何將資源精準投入四種創新路徑？]]
+> - [[Innovation/transaction-cost-reduction-platforms|📉 交易成本的減法藝術：數位平台的隱形戰場]]
+> - [[Innovation/api-as-a-product|🔌 API 即產品：從技術接口到利潤中心的商業路徑]]
+> - [[Innovation/algorithmic-economy-prediction|🧠 演算法經濟時代：為何預測能力是企業的第二大腦？]]
 
 > [!SCROLL]- 📜 管理敕令 (Arcane Dictums)
 > *管理者的權威敕令：領導統御、組織法則與團隊協作的奧術律法。*
@@ -77,12 +78,12 @@ tags:
 
 > [!COIN]- 💰 鍊金術 (Finance Alchemy)
 > *個人財務管理、投資策略與風險控制的古老智慧。*
-> - [[Dictums/financial-planning-steps|💰 金幣守護術：個人理財的七重結界]]
-> - [[Dictums/life-cycle-finance|⏳ 生命週期：六大階段的理財路線圖]]
-> - [[Dictums/risk-management-four-strategies|🛡️ 風險結界：四大防禦策略]]
-> - [[Dictums/family-financial-statements|📊 魔法家計簿：家庭財務偵查術]]
-> - [[Dictums/risk-tolerance-assessment|🎯 風險承受度：你的冒險類型]]
-> - [[Dictums/insurance-planning-basics|🏥 保險結界：守護財富的最後防線]]
+> - [[Finance/financial-planning-steps|💰 金幣守護術：個人理財的七重結界]]
+> - [[Finance/life-cycle-finance|⏳ 生命週期：六大階段的理財路線圖]]
+> - [[Finance/risk-management-four-strategies|🛡️ 風險結界：四大防禦策略]]
+> - [[Finance/family-financial-statements|📊 魔法家計簿：家庭財務偵查術]]
+> - [[Finance/risk-tolerance-assessment|🎯 風險承受度：你的冒險類型]]
+> - [[Finance/insurance-planning-basics|🏥 保險結界：守護財富的最後防線]]
 
 > [!CRAFT]- 🔧 奧術工藝 (Arcane Artifice)
 > *創造與工藝之術：UI 美學、品牌形象與手工藝的法則。*

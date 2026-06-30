@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Dictums
+  - Finance
 ---
 
 # 📊 魔法家計簿：家庭財務偵查術
@@ -163,8 +163,8 @@ $$相對收支率 = \frac{目前收入 / 區域平均收入}{目前支出 / 區�
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何設定理財目標？參考 [[Dictums/financial-planning-steps|金幣守護術：個人理財的七重結界]]
-> - 了解不同生命階段的理財策略？參考 [[Dictums/life-cycle-finance|生命週期：六大階段的理財路線圖]]
-> - 如何選擇投資工具？參考 [[Dictums/risk-tolerance-assessment|風險承受度：你的冒險類型]]
-> - 定期檢視理財進度？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
-> - 保險規劃的基本原則？參考 [[Dictums/insurance-planning-basics|保險結界：守護財富的最後防線]]
+> - 如何設定理財目標？參考 [[Finance/financial-planning-steps|金幣守護術：個人理財的七重結界]]
+> - 了解不同生命階段的理財策略？參考 [[Finance/life-cycle-finance|生命週期：六大階段的理財路線圖]]
+> - 如何選擇投資工具？參考 [[Finance/risk-tolerance-assessment|風險承受度：你的冒險類型]]
+> - 定期檢視理財進度？參考 [[Finance/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 保險規劃的基本原則？參考 [[Finance/insurance-planning-basics|保險結界：守護財富的最後防線]]

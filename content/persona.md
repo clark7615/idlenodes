@@ -49,6 +49,7 @@ tags:
 > *戰鬥用的核心技術能力*
 > 
 > ### 🖥️ 後端魔法 (Backend Magic)
+> - [[Grimoires/pseudocode-guide|📝 術式藍本完整指南]] `Foundation`
 > - [[Grimoires/backend-csd-architecture|📜 奧術核心：後端 CSD 架構法典]] `Passive`
 > - [[Grimoires/java-container-jvm-settings|☕ JVM 強化：容器化位面高效配置]] `Buff`
 > - [[Grimoires/swagger-multi-site-ui|📜 Swagger 多位面傳輸：跨站點 UI 整合法典]] `Utility`
@@ -94,12 +95,12 @@ tags:
 > - [[Artifice/ui-design-basics|🖌️ 視覺工坊：UI 設計基礎法則與美學]]
 > 
 > ### 💰 煉金術 (Finance)
-> - [[Dictums/financial-planning-steps|💰 金幣守護術：個人理財的七重結界]]
-> - [[Dictums/life-cycle-finance|⏳ 生命週期：六大階段的理財路線圖]]
-> - [[Dictums/risk-management-four-strategies|🛡️ 風險結界：四大防禦策略]]
-> - [[Dictums/family-financial-statements|📊 魔法家計簿：家庭財務偵查術]]
-> - [[Dictums/risk-tolerance-assessment|🎯 風險承受度：你的冒險類型]]
-> - [[Dictums/insurance-planning-basics|🏥 保險結界：守護財富的最後防線]]
+> - [[Finance/financial-planning-steps|💰 金幣守護術：個人理財的七重結界]]
+> - [[Finance/life-cycle-finance|⏳ 生命週期：六大階段的理財路線圖]]
+> - [[Finance/risk-management-four-strategies|🛡️ 風險結界：四大防禦策略]]
+> - [[Finance/family-financial-statements|📊 魔法家計簿：家庭財務偵查術]]
+> - [[Finance/risk-tolerance-assessment|🎯 風險承受度：你的冒險類型]]
+> - [[Finance/insurance-planning-basics|🏥 保險結界：守護財富的最後防線]]
 > 
 > ### ⚒️ 奧術皮藝 (Leathercrafting)
 > - [[Artifice/leather-wallet-design|⚒️ 奧術皮藝：長夾打版聖典]]
@@ -111,12 +112,12 @@ tags:
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
 > 
 > ### 💡 數位創新 (Digital Innovation)
-> - [[Grimoires/digital-innovation-golden-rules|💡 創造市場，解決問題：數位時代的創新黃金法則]]
-> - [[Grimoires/digital-transformation-five-stages|🏗️ 從自動化到數位 DNA：企業轉型的五個階梯]]
-> - [[Grimoires/innovation-landscape-map|🗺️ 創新地貌圖：如何將資源精準投入四種創新路徑？]]
-> - [[Grimoires/transaction-cost-reduction-platforms|📉 交易成本的減法藝術：數位平台的隱形戰場]]
-> - [[Grimoires/api-as-a-product|🔌 API 即產品：從技術接口到利潤中心的商業路徑]]
-> - [[Grimoires/algorithmic-economy-prediction|🧠 演算法經濟時代：為何預測能力是企業的第二大腦？]]
+> - [[Innovation/digital-innovation-golden-rules|💡 創造市場，解決問題：數位時代的創新黃金法則]]
+> - [[Innovation/digital-transformation-five-stages|🏗️ 從自動化到數位 DNA：企業轉型的五個階梯]]
+> - [[Innovation/innovation-landscape-map|🗺️ 創新地貌圖：如何將資源精準投入四種創新路徑？]]
+> - [[Innovation/transaction-cost-reduction-platforms|📉 交易成本的減法藝術：數位平台的隱形戰場]]
+> - [[Innovation/api-as-a-product|🔌 API 即產品：從技術接口到利潤中心的商業路徑]]
+> - [[Innovation/algorithmic-economy-prediction|🧠 演算法經濟時代：為何預測能力是企業的第二大腦？]]
 
 
 ## 🎒 冒險者背包 (Inventory)

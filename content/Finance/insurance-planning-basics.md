@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Dictums
+  - Finance
 ---
 
 # 🏥 保險結界：守護財富的最後防線
@@ -172,8 +172,8 @@ $$守護支出 \leq 總收入 \times 10\%$$
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何選擇風險防禦策略？參考 [[Dictums/risk-management-four-strategies|風險結界：四大防禦策略]]
-> - 了解自己的風險承受度？參考 [[Dictums/risk-tolerance-assessment|風險承受度：你的冒險類型]]
-> - 如何設定理財目標？參考 [[Dictums/financial-planning-steps|金幣守護術：個人理財的七重結界]]
-> - 了解不同生命階段的理財策略？參考 [[Dictums/life-cycle-finance|生命週期：六大階段的理財路線圖]]
-> - 如何分析家庭財務報表？參考 [[Dictums/family-financial-statements|財務偵查術：家庭報表分析指南]]
+> - 如何選擇風險防禦策略？參考 [[Finance/risk-management-four-strategies|風險結界：四大防禦策略]]
+> - 了解自己的風險承受度？參考 [[Finance/risk-tolerance-assessment|風險承受度：你的冒險類型]]
+> - 如何設定理財目標？參考 [[Finance/financial-planning-steps|金幣守護術：個人理財的七重結界]]
+> - 了解不同生命階段的理財策略？參考 [[Finance/life-cycle-finance|生命週期：六大階段的理財路線圖]]
+> - 如何分析家庭財務報表？參考 [[Finance/family-financial-statements|財務偵查術：家庭報表分析指南]]

@@ -6,7 +6,7 @@ class: "Oracle"
 rarity: "Rare"
 icon: "📖"
 tags:
-  - Dictums
+  - Finance
 ---
 
 # 💰 金幣守護術：個人理財的七重結界
@@ -46,7 +46,7 @@ $$收入 = 支出 + 儲蓄$$
 
 ### 步驟二：設定目標（選擇冒險路線）
 
-使用 [[Dictums/smart-principles|SMART 符文]] 設定你的理財目標：
+使用 [[Finance/smart-principles|SMART 符文]] 設定你的理財目標：
 
 | 目標類型 | 時間範圍 | 範例 |
 |:---|:---|:---|
@@ -99,7 +99,7 @@ $$收入 = 支出 + 儲蓄$$
 - 預算執行狀況？
 - 是否需要調整計畫？
 
-使用 [[Dictums/work-review-methodology|工作復盤]] 的方法來檢視你的財務狀況。
+使用 [[Finance/work-review-methodology|工作復盤]] 的方法來檢視你的財務狀況。
 
 ---
 
@@ -115,8 +115,8 @@ $$收入 = 支出 + 儲蓄$$
 ## 相關主題
 
 > 💡 **延伸閱讀**：
-> - 如何精準化理財目標？參考 [[Dictums/smart-principles|SMART 符文：精準任務目標設定]]
-> - 了解不同生命階段的理財策略？參考 [[Dictums/life-cycle-finance|生命週期：六大階段的理財路線圖]]
-> - 如何分析家庭財務報表？參考 [[Dictums/family-financial-statements|財務偵查術：家庭報表分析指南]]
-> - 定期檢視理財進度？參考 [[Dictums/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
-> - 理解風險與報酬的關係？參考 [[Dictums/risk-tolerance-assessment|風險承受度：你的冒險類型]]
+> - 如何精準化理財目標？參考 [[Finance/smart-principles|SMART 符文：精準任務目標設定]]
+> - 了解不同生命階段的理財策略？參考 [[Finance/life-cycle-finance|生命週期：六大階段的理財路線圖]]
+> - 如何分析家庭財務報表？參考 [[Finance/family-financial-statements|財務偵查術：家庭報表分析指南]]
+> - 定期檢視理財進度？參考 [[Finance/work-review-methodology|工作復盤：經驗值獲取與持續優化]]
+> - 理解風險與報酬的關係？參考 [[Finance/risk-tolerance-assessment|風險承受度：你的冒險類型]]
