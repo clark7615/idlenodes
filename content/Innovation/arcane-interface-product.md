@@ -1,7 +1,7 @@
 ---
 title: "🔌 魔力接口即產品：從技術管線到利潤中心"
 description: "探討如何透過 API 分級與互動計量，將技術資源轉化為具備商業價值的產品。"
-permalink: "/api-as-a-product"
+permalink: "/arcane-interface-product"
 class: "Oracle"
 rarity: "Epic"
 icon: "🔌"

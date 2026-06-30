@@ -1,7 +1,7 @@
 ---
 title: "🧠 預測咒式時代：為何占卜能力是工會的第二大腦？"
 description: "探討人工智慧決策與預測成本下降如何重塑現代企業的經營模式。"
-permalink: "/algorithmic-economy-prediction"
+permalink: "/prediction-spell-era"
 class: "Oracle"
 rarity: "Epic"
 icon: "🧠"

@@ -1,7 +1,7 @@
 ---
 title: "📉 交易成本的減法咒式：數位貿易站的隱形戰場"
 description: "探討平台經濟如何透過技術機制，將資訊不對稱、搜尋與匹配成本最小化。"
-permalink: "/transaction-cost-reduction-platforms"
+permalink: "/trade-cost-reduction-spell"
 class: "Oracle"
 rarity: "Epic"
 icon: "📉"

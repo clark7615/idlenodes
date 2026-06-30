@@ -1,7 +1,7 @@
 ---
 title: "💡 四重奧術視界：冒險工會的創新黃金法則"
 description: "探討數位轉型的核心經濟邏輯，透過四個關鍵因素重新審視創新策略。"
-permalink: "/digital-innovation-golden-rules"
+permalink: "/four-arcane-visions"
 class: "Oracle"
 rarity: "Epic"
 icon: "💡"

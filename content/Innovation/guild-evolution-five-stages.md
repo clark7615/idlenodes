@@ -1,7 +1,7 @@
 ---
 title: "🏗️ 工會進化五階試煉：從自動化到活著的奧術 DNA"
 description: "解析工會數位轉型的五個階段，從簡單自動化到具備自我破壞與重組能力的『活著的奧術 DNA』。"
-permalink: "/digital-transformation-five-stages"
+permalink: "/guild-evolution-five-stages"
 class: "Oracle"
 rarity: "Epic"
 icon: "🏗️"

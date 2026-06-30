@@ -112,12 +112,12 @@ tags:
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
 > 
 > ### 💡 數位創新 (Digital Innovation)
-> - [[Innovation/digital-innovation-golden-rules|💡 創造市場，解決問題：數位時代的創新黃金法則]]
-> - [[Innovation/digital-transformation-five-stages|🏗️ 從自動化到數位 DNA：企業轉型的五個階梯]]
-> - [[Innovation/innovation-landscape-map|🗺️ 創新地貌圖：如何將資源精準投入四種創新路徑？]]
-> - [[Innovation/transaction-cost-reduction-platforms|📉 交易成本的減法藝術：數位平台的隱形戰場]]
-> - [[Innovation/api-as-a-product|🔌 API 即產品：從技術接口到利潤中心的商業路徑]]
-> - [[Innovation/algorithmic-economy-prediction|🧠 演算法經濟時代：為何預測能力是企業的第二大腦？]]
+> - [[Innovation/four-arcane-visions|💡 四重奧術視界：冒險工會的創新黃金法則]]
+> - [[Innovation/guild-evolution-five-stages|🏗️ 工會進化五階試煉：從自動化到活著的奧術 DNA]]
+> - [[Innovation/innovation-landscape-map|🗺️ 創新地貌圖：四大奧術路徑資源配置指南]]
+> - [[Innovation/trade-cost-reduction-spell|📉 交易成本的減法咒式：數位貿易站的隱形戰場]]
+> - [[Innovation/arcane-interface-product|🔌 魔力接口即產品：從技術管線到利潤中心]]
+> - [[Innovation/prediction-spell-era|🧠 預測咒式時代：為何占卜能力是工會的第二大腦？]]
 
 
 ## 🎒 冒險者背包 (Inventory)
