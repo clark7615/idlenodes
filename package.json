@@ -13,10 +13,14 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
+    "build": "./quartz/bootstrap-cli.mjs build && cp ads.txt public/ads.txt",
+    "serve": "./quartz/bootstrap-cli.mjs build --serve",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "engines": {
     "npm": ">=10.9.2",

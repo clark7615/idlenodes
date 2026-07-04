@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "idlenodes.vercel.app",
+    baseUrl: "diadiaju.dpdns.org",
     ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
     locale: "zh-TW",
