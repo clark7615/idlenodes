@@ -73,6 +73,7 @@ tags:
 > - [[Dictums/managing-post-2000s-employees|🏔️ 管理新世代隨從：Z 世代的魔法契約]]
 > - [[Dictums/strategic-anger-communication|⚖️ 憤怒的外交：戰術性情緒運用術式]]
 > - [[Dictums/art-principles|🎨 ART 藝術：任務規劃的不可能三角]]
+- [[Dictums/company-worth-matrix|🏢 公司價值評估：4 維度 1 矩陣，判斷值不值得拼]]
 > - [[Dictums/smart-principles|🎯 SMART 符文：精準目標的五重定義]]
 > - [[Dictums/workplace-alliances|⚖️ 職場站隊的底層邏輯 — Junior 的生存與選擇框架]]
 

@@ -237,3 +237,7 @@ quadrantChart
 > - [French & Raven 權力基礎理論（原文）](https://en.wikipedia.org/wiki/French_and_Raven%27s_bases_of_power)
 > - 《權力與影響力》John P. Kotter
 > - 《横向領導力》Roger Fisher
+
+## 相關主題
+
+> - 用四個維度評估公司值不值得繼續拚？參考 [[Dictums/company-worth-matrix|公司價值評估：4 維度 1 矩陣]]

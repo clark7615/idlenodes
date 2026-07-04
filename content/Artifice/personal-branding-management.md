@@ -164,3 +164,7 @@ tags:
 *   [[Dictums/leadership-time-management|團長專用：時間加速魔法秘籍]]
 *   [[Dictums/smart-principles|卷軸鑑定：如何識別真正的目標]]
 
+## 相關主題
+
+> - 用四個維度判斷公司值不值得繼續拚？參考 [[Dictums/company-worth-matrix|公司價值評估：4 維度 1 矩陣]]
+

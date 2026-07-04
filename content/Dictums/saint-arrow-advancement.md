@@ -126,3 +126,7 @@ tags:
 > - 時間能量管理如何抵禦暗影侵蝕？傳送至 [[Dictums/leadership-time-management|領袖時間管理：資源分配術]]
 > - 戰鬥復盤幫你檢視領域轉移？傳送至 [[Dictums/work-review-methodology|戰鬥復盤：經驗值獲取指南]]
 > - 個人品牌的完整 RPG 勇者傳說？傳送至 [[Artifice/personal-branding-management|個人品牌勇者傳：形象管理實戰 RPG 手冊]]
+
+## 相關主題
+
+> - 用通用資本與專用資本的框架檢視你的晉升路徑？參考 [[Dictums/company-worth-matrix|公司價值評估：4 維度 1 矩陣]]
