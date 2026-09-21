@@ -137,3 +137,21 @@ D. 人類創造，AI 作為強力工具
 
 > 會用 AI，不等於會與 AI 協作。
 
+## 相關資源
+
+### 生成式 AI 在行政實務中的應用/微學分
+- **【學習資源 Notion 網址】** [https://reurl.cc/qaoKEg](https://reurl.cc/qaoKEg)
+
+### 生成式 AI 工具
+- Gemini
+- Gemini Notebook
+- ChatGPT
+- Claude
+
+### 【PADLET 成果分享】
+- ZZZ001班：[https://reurl.cc/90xbln](https://reurl.cc/90xbln)
+- ZZZ002班：[https://reurl.cc/p8oKGb](https://reurl.cc/p8oKGb)
+
+
+
+
