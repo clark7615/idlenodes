@@ -2,3 +2,32 @@
 @use "./themes/catppuccin.macchiato.scss";
 
 // put your custom CSS here!
+
+// 首頁：知識寶庫 callout 改為卡片格狀排列
+body[data-slug="index"] article {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+
+  & > * {
+    grid-column: 1 / -1;
+  }
+
+  & > .callout:not([data-callout="quote"]):not([data-callout="tip"]) {
+    grid-column: auto;
+    margin: 0;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    & ul {
+      padding-left: 1.1rem;
+      margin: 0.5rem 0 1rem;
+    }
+  }
+}

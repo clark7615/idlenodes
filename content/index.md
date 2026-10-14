@@ -26,13 +26,13 @@ tags:
 
 ## 📖 知識寶庫 (Knowledge Vault)
 
-> [!ABSTRACT]- 📜 冒險任務 (Combat Records)
+> [!ABSTRACT] 📜 冒險任務 (Combat Records)
 > *記載著在專案戰場上的征戰歷程、系統架構與實戰成果。*
 > - [[Quests/obsidian-image-hosting-gcp|☁️ 雲端圖床召喚術：GCP & Cloud Run]]
 > - [[Quests/code-quality-management|🔍 冒險者自我守護：SonarQube 品質監控系統]]
 > - [[Quests/internal-learning-system|🏗️ 公會知識傳承結界：企業內訓系統部署]]
 
-> [!BOOK]- 📖 奧術法典 (Arcane Spellbook)
+> [!BOOK] 📖 奧術法典 (Arcane Spellbook)
 > *核心技術魔法：後端奧術、AI 掌控與容器召喚術。*
 > - [[Grimoires/pseudocode-guide|📝 術式藍本完整指南：從入門到實戰]]
 > - [[Grimoires/ai-fundamentals|🔮 AI 基礎奧義：從判別到生成的進化之路]]
@@ -52,7 +52,7 @@ tags:
 > - [[Grimoires/java-container-jvm-settings|☕ JVM 強化：容器化位面高效配置]]
 > - [[Grimoires/newman-cicd-testing|🧪 自動化試煉：Newman & CI/CD 測試祭壇]]
 
-> [!DICE]- 💡 創新奧術 (Innovation Arcana)
+> [!DICE] 💡 創新奧術 (Innovation Arcana)
 > *數位時代的商業模式、轉型策略與創新思維。*
 > - [[Innovation/four-arcane-visions|💡 四重奧術視界：冒險工會的創新黃金法則]]
 > - [[Innovation/guild-evolution-five-stages|🏗️ 工會進化五階試煉：從自動化到活著的奧術 DNA]]
@@ -61,7 +61,7 @@ tags:
 > - [[Innovation/arcane-interface-product|🔌 魔力接口即產品：從技術管線到利潤中心]]
 > - [[Innovation/prediction-spell-era|🧠 預測咒式時代：為何占卜能力是工會的第二大腦？]]
 
-> [!SCROLL]- 📜 管理敕令 (Arcane Dictums)
+> [!SCROLL] 📜 管理敕令 (Arcane Dictums)
 > *管理者的權威敕令：領導統御、組織法則與團隊協作的奧術律法。*
 > - [[Dictums/scrum-agile-framework|🛡️ Scrum 敏捷戰法：團隊協作的古老契約]]
 > - [[Dictums/efficient-meeting-methodology|🔮 高效會議術：精神鏈接與共鳴]]
@@ -73,11 +73,11 @@ tags:
 > - [[Dictums/managing-post-2000s-employees|🏔️ 管理新世代隨從：Z 世代的魔法契約]]
 > - [[Dictums/strategic-anger-communication|⚖️ 憤怒的外交：戰術性情緒運用術式]]
 > - [[Dictums/art-principles|🎨 ART 藝術：任務規劃的不可能三角]]
-- [[Dictums/company-worth-matrix|🏢 公司價值評估：4 維度 1 矩陣，判斷值不值得拼]]
+> - [[Dictums/company-worth-matrix|🏢 公司價值評估：4 維度 1 矩陣，判斷值不值得拼]]
 > - [[Dictums/smart-principles|🎯 SMART 符文：精準目標的五重定義]]
 > - [[Dictums/workplace-alliances|⚖️ 職場站隊的底層邏輯 — Junior 的生存與選擇框架]]
 
-> [!COIN]- 💰 鍊金術 (Finance Alchemy)
+> [!COIN] 💰 鍊金術 (Finance Alchemy)
 > *個人財務管理、投資策略與風險控制的古老智慧。*
 > - [[Finance/financial-planning-steps|💰 金幣守護術：個人理財的七重結界]]
 > - [[Finance/life-cycle-finance|⏳ 生命週期：六大階段的理財路線圖]]
@@ -86,7 +86,7 @@ tags:
 > - [[Finance/risk-tolerance-assessment|🎯 風險承受度：你的冒險類型]]
 > - [[Finance/insurance-planning-basics|🏥 保險結界：守護財富的最後防線]]
 
-> [!CRAFT]- 🔧 奧術工藝 (Arcane Artifice)
+> [!CRAFT] 🔧 奧術工藝 (Arcane Artifice)
 > *創造與工藝之術：UI 美學、品牌形象與手工藝的法則。*
 > - [[Artifice/ui-design-basics|🖌️ 視覺工坊：UI 設計基礎法則與美學]]
 > - [[Artifice/personal-branding-management|🏰 個人品牌勇者傳：形象管理實戰 RPG 手冊]]
@@ -94,12 +94,12 @@ tags:
 > - [[Artifice/obsidian-plugins|📜 儀式用具：Obsidian 神兵套件]]
 > - [[Artifice/toy-box|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]
 
-> [!SAGE]- 🏰 賢者塔 (Wisdom Archives)
+> [!SAGE] 🏰 賢者塔 (Wisdom Archives)
 > *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
 > - [[SageTower/financial-planning-practice|現代煉金術：理財規劃與實務]]
 > - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
 
-> [!TOOL]- 🛠️ 鍛造工坊 (The Forge)
+> [!TOOL] 🛠️ 鍛造工坊 (The Forge)
 > *工欲善其事，必先利其器。此處存放著先知的核心裝備配置。*
 > - [[Forge/intellij-idea-settings|核心裝備強化：IntelliJ IDEA 設定]]
 > - [[Forge/vscode-setup-guide|輕量化武裝：VS Code 設定指南]]
