@@ -95,9 +95,11 @@ tags:
 > - [[Artifice/toy-box|🎁 先知的寶物珍藏：傳奇前端套件與 AI 卷軸]]
 
 > [!SAGE] 🏰 賢者塔 (Wisdom Archives)
-> *超越代碼的智慧：個人形象經營、財富煉金與深度管理學。*
-> - [[SageTower/financial-planning-practice|現代煉金術：理財規劃與實務]]
-> - [[SageTower/generative-ai-prompting|生成式 AI 與提示工程]]
+> *超越代碼的智慧：策略管理、內部稽核、行銷分析與 AI 行政實務。*
+> - [[SageTower/generative-ai-in-administrative-practice|🤖 生成式 AI 在行政實務的應用]]
+> - [[SageTower/internal-audit-overview|🛡️ 內部稽核概論]]
+> - [[SageTower/strategy-management|📊 策略管理]]
+> - [[SageTower/strategic-marketing-analysis|📊 策略行銷分析]]
 
 > [!TOOL] 🛠️ 鍛造工坊 (The Forge)
 > *工欲善其事，必先利其器。此處存放著先知的核心裝備配置。*
